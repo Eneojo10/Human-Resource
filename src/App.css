@@ -848,7 +848,7 @@
 
 .add-one {
   border: 1px solid #ccc;
-  height: autox;
+  height: auto;
   width: 100%;
   border-radius: 16px;
   background-color: white;
@@ -1297,6 +1297,81 @@
  .naija-flag{
   display: flex;
   gap: 10px;
+ }
+ .nav--leaf{
+  display: block;
+  display: flex;
+ }
+ .hamburger-container{
+  display: flex;
+  gap: 20px;
+ }
+ .eneshrimage{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #1d9336;
+ }
+
+ .price-plan{
+  display: block;
+  padding: 20px;
+ }
+
+ .plans{
+  width: 100%;
+  text-align: center;
+  
+ }
+ .pricing-form{
+  width: 100%;
+ }
+ .p-inputs{
+  display: block;
+  
+ }
+ .p_input{
+  width: 100%;
+ }
+ .p_input input{
+  width: 100%;
+ }
+ .core{
+  display: block;
+ }
+
+ .co-re{
+  margin-bottom: 20px;
+ }
+
+ .co-re{
+  margin-bottom: 60px;
+ }
+ .core-inside{
+  height: 557px;
+ }
+ .core-red{
+  height: 600px;
+ }
+ .addflex{
+  display: block;
+  width: 90%;
+  margin: auto;
+ }
+
+ .add-one{
+  width: 100%;
+  margin-bottom: 20px;
+ }
+
+ .calculator{
+  display: block;
+  width: 90%;
+  margin: auto;
+ }
+ .quote, .qu-ote{
+  width: 100%;
+  margin-bottom: 20px;
  }
   
   

@@ -41,7 +41,7 @@ function Navigation() {
                                     <img src={logo} alt='' />
                                 </div>
                                 <a href='/'>
-                                    <div className='dropdown'>
+                                    <div className='eneshrimage'>
                                         <h2>enesHR</h2>
                                     </div>
                                 </a>
@@ -69,9 +69,7 @@ function Navigation() {
                                         <div>
                                             <h4>Pricing</h4>
                                         </div>
-                                        <div className='mobile-icon'>
-                                            <MdKeyboardArrowRight />
-                                        </div>
+                                        
                                     </div>
                                 </a>
                                 <div className='mb-bottom'></div>
@@ -127,7 +125,7 @@ function Navigation() {
                                 <div className='mb-bottom'></div>
 
                                 <div className='mb-number'>
-                                    <p>07062304776</p>
+                                    <p>+2347062304776</p>
                                 </div>
 
 
