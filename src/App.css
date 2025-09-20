@@ -1060,7 +1060,13 @@
 
 .hamburger{display: none;}
 
-
+.amounts-vertical{
+  display: none;
+   display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
 
 /* .p_input .error {
   display: block;
@@ -1103,10 +1109,14 @@
     width: 100%;
   }
   .amounts {
+    display: none;
+  }
+  .amounts-vertical{
     display: block;
   }
   .aone {
     width: 100%;
+    margin-bottom: 10px;
   }
   .leaf-flex {
     width: 95%;
@@ -1373,6 +1383,11 @@
   width: 100%;
   margin-bottom: 20px;
  }
+
+ input, select, textarea {
+  -webkit-text-size-adjust: 100%; 
+}
+
   
   
 }

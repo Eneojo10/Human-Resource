@@ -413,7 +413,25 @@ function Pricing() {
                         <div className='aone'>
                             <p><span className='saved'>Saved</span> N5,000,000 a year in time-savings using pre-built and custom reports.</p>
                         </div>
+                        <hr className='hr-'></hr>
+                        <div className='aone'>
+                            <p>Saved <span className='saved'>hours of manual work every week</span> with automated data pulls and custom reporting.</p>
+                        </div>
+
+                    </div>
+                    <div className='amounts-vertical'>
+                        <div className='aone'>
+                            <p><span className='saved'>Saved</span> N10,000,000 a year in time-savings using pre-built and custom reports.</p>
+                        </div>
                         <hr></hr>
+                        <br/>
+                        <br/>
+                        <div className='aone'>
+                            <p><span className='saved'>Saved</span> N5,000,000 a year in time-savings using pre-built and custom reports.</p>
+                        </div>
+                        <hr></hr>
+                        <br/>
+                        <br/>
                         <div className='aone'>
                             <p>Saved <span className='saved'>hours of manual work every week</span> with automated data pulls and custom reporting.</p>
                         </div>
