@@ -1238,7 +1238,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 50vh;
+  height: auto;
   width: 250px;
   background-color: #fff;
   box-shadow: -2px 0 5px rgba(0,0,0,0.2);
@@ -1271,6 +1271,29 @@
   text-decoration: none;
   color: black;
   margin-bottom: 11px;
+ }
+ .mb-iconflex{
+  display: flex;
+  justify-content: space-between;
+ }
+ .mobile-icon{
+  font-size: 21px;
+  font-weight: 600;
+  color: #00673b;
+ }
+ .mb-number p{
+  color: #00673b;
+  font-weight: 700;
+ }
+ .mobile-image{
+  width: 10%;
+ }
+ .mobile-image img{
+  width: 100%;
+ }
+ .naija-flag{
+  display: flex;
+  gap: 10px;
  }
   
   

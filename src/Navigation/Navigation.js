@@ -10,6 +10,7 @@ import { ImStarEmpty } from "react-icons/im";
 import { GoGift } from "react-icons/go";
 import logo from '../Images/logo-removebg-preview.png'
 import { FiMenu, FiX } from "react-icons/fi";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 function Navigation() {
     const [isOpen, setIsOpen] = useState(false);
@@ -53,34 +54,82 @@ function Navigation() {
                                     <FiX size={28} className="close-icon" onClick={toggleMenu} />
                                 </div>
                                 <a href='/' className='mb-line'>
-                                    <h4>Our Platform</h4>
+                                    <div className='mb-iconflex'>
+                                        <div>
+                                            <h4>Our Platform</h4>
+                                        </div>
+                                        <div className='mobile-icon'>
+                                            <MdKeyboardArrowRight />
+                                        </div>
+                                    </div>
                                 </a>
                                 <div className='mb-bottom'></div>
                                 <a href='/' className='mb-line'>
-                                    <h4>Pricing</h4>
+                                    <div className='mb-iconflex'>
+                                        <div>
+                                            <h4>Pricing</h4>
+                                        </div>
+                                        <div className='mobile-icon'>
+                                            <MdKeyboardArrowRight />
+                                        </div>
+                                    </div>
                                 </a>
                                 <div className='mb-bottom'></div>
                                 <a href='/' className='mb-line'>
-                                    <h4>Solutions</h4>
+                                    <div className='mb-iconflex'>
+                                        <div>
+                                            <h4>Solutions</h4>
+                                        </div>
+                                        <div className='mobile-icon'>
+                                            <MdKeyboardArrowRight />
+                                        </div>
+                                    </div>
                                 </a>
                                 <div className='mb-bottom'></div>
                                 <a href='/' className='mb-line'>
-                                    <h4>Why EnesHR</h4>
+                                    <div className='mb-iconflex'>
+                                        <div>
+                                            <h4>Why EnesHR?</h4>
+                                        </div>
+                                        <div className='mobile-icon'>
+                                            <MdKeyboardArrowRight />
+                                        </div>
+                                    </div>
                                 </a>
                                 <div className='mb-bottom'></div>
                                 <a href='/' className='mb-line'>
-                                    <h4>About</h4>
+                                    <div className='mb-iconflex'>
+                                        <div>
+                                            <h4>About</h4>
+                                        </div>
+                                        <div className='mobile-icon'>
+                                            <MdKeyboardArrowRight />
+                                        </div>
+                                    </div>
                                 </a>
                                 <div className='mb-bottom'></div>
                                 <a href='/' className='mb-line'>
-                                    <h4>Nigeria (NG)</h4>
+                                    <div className='mb-iconflex'>
+                                        <div className='naija-flag'>
+                                            <div className='mobile-image'>
+                                                <img src={image} alt='' />
+                                            </div>
+                                            <div>
+                                                <h4>Nigeria (NG)</h4>
+                                            </div>
+                                        </div>
+                                        <div className='mobile-icon'>
+                                            <MdKeyboardArrowRight />
+                                        </div>
+                                    </div>
                                 </a>
+
                                 <div className='mb-bottom'></div>
 
-                                <div>
+                                <div className='mb-number'>
                                     <p>07062304776</p>
                                 </div>
-                                
+
 
                             </div>
 
