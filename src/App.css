@@ -1067,6 +1067,19 @@
   margin: auto;
   justify-content: space-between;
 }
+.enes-picture{
+  width: 50%;
+}
+.enes-picture img{
+  width: 100%;
+}
+.enes-commercial{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  padding-top: 15px;
+}
 
 /* .p_input .error {
   display: block;

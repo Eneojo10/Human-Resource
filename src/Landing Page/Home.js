@@ -20,6 +20,7 @@ import image3 from '../Images/turnover.webp'
 import user from '../Images/user2.jpg'
 import logo from '../Images/logo-removebg-preview.png'
 import Footer from '../Footer/Footer'
+import pic from '../Images/WhatsApp_Image_2024-12-31_at_2.49.41_PM-removebg-preview.png'
 
 function Home() {
     const [isOpen, setIsOpen] = useState(false);
@@ -96,7 +97,19 @@ function Home() {
                 <div className='home-white-bg'>
 
                 </div>
-                <div className='home-green-bg'></div>
+                <div className='home-green-bg'>
+                    <div className='enes-commercial'>
+                        <div className='enes-picture'>
+                            <img src={pic} alt='' />
+                        </div>
+                        <div className='enes-picture'>
+                            <img src={pic} alt='' />
+                        </div>
+                        <div className='enes-picture'>
+                            <img src={pic} alt='' />
+                        </div>
+                    </div>
+                </div>
                 <div className='rated-hr'>
                     <h1>#1 Rated HR Software 2025</h1>
                 </div>
