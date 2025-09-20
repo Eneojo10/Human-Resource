@@ -1233,7 +1233,45 @@
   .hamburger{
     display: block;
   }
-  
+
+  .mobile-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50vh;
+  width: 250px;
+  background-color: #fff;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%); /* hidden by default */
+}
+
+.mobile-sidebar.open {
+  transform: translateX(0); /* slide in */
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-icon {
+  cursor: pointer;
+}
+
+ .mb-bottom{
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+ } 
+ .mb-line{
+  text-decoration: none;
+  color: black;
+  margin-bottom: 11px;
+ }
   
   
 }

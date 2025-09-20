@@ -48,14 +48,44 @@ function Navigation() {
 
                         </div>
                         {isOpen && (
-                            <div className="mobile-menu">
-                                <a href='/time-attendance'>Time & Attendance</a><br/>
-                                <a href='/payroll'>Payroll</a>
-                                <a href='/benefits'>Benefits</a>
-                                <a href='/pricing'>Pricing</a>
-                                <a href='/about'>About</a>
+                            <div className={`mobile-sidebar ${isOpen ? "open" : ""}`}>
+                                <div className="sidebar-header">
+                                    <FiX size={28} className="close-icon" onClick={toggleMenu} />
+                                </div>
+                                <a href='/' className='mb-line'>
+                                    <h4>Our Platform</h4>
+                                </a>
+                                <div className='mb-bottom'></div>
+                                <a href='/' className='mb-line'>
+                                    <h4>Pricing</h4>
+                                </a>
+                                <div className='mb-bottom'></div>
+                                <a href='/' className='mb-line'>
+                                    <h4>Solutions</h4>
+                                </a>
+                                <div className='mb-bottom'></div>
+                                <a href='/' className='mb-line'>
+                                    <h4>Why EnesHR</h4>
+                                </a>
+                                <div className='mb-bottom'></div>
+                                <a href='/' className='mb-line'>
+                                    <h4>About</h4>
+                                </a>
+                                <div className='mb-bottom'></div>
+                                <a href='/' className='mb-line'>
+                                    <h4>Nigeria (NG)</h4>
+                                </a>
+                                <div className='mb-bottom'></div>
+
+                                <div>
+                                    <p>07062304776</p>
+                                </div>
+                                
+
                             </div>
+
                         )}
+
 
 
 
