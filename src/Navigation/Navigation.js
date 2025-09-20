@@ -64,7 +64,7 @@ function Navigation() {
                                     </div>
                                 </a>
                                 <div className='mb-bottom'></div>
-                                <a href='/' className='mb-line'>
+                                <a href='/pricing' className='mb-line'>
                                     <div className='mb-iconflex'>
                                         <div>
                                             <h4>Pricing</h4>
