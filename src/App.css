@@ -1183,6 +1183,10 @@
   .slide-section{
     display: block;
   }
+  .allstars{
+    width: 45%;
+    margin: auto;
+  }
   .all-flex{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1399,6 +1403,22 @@
 
  input, select, textarea {
   -webkit-text-size-adjust: 100%; 
+}
+.sliders{
+  margin-top: 10px;
+  width: 100%;
+}
+.d-slider{
+  display: block;
+  width: 100%;
+}
+.slide-one{
+  margin-bottom: 20px;
+  
+}
+
+.cards-image img{
+  border-radius: 52px;
 }
 
   
