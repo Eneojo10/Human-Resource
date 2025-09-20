@@ -1168,7 +1168,10 @@
     margin: auto;
   }
   .onboard-image{
-    width: 70%;
+    width: 100%;
+  }
+  .onboard-image img{
+    width: 60%;
   }
   .demo-color{
     width: 85%;
