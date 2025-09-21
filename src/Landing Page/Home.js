@@ -21,6 +21,7 @@ import user from '../Images/user2.jpg'
 import logo from '../Images/logo-removebg-preview.png'
 import Footer from '../Footer/Footer'
 import pic from '../Images/WhatsApp_Image_2024-12-31_at_2.49.41_PM-removebg-preview.png'
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 function Home() {
     const [isOpen, setIsOpen] = useState(false);
@@ -114,7 +115,7 @@ function Home() {
                     <h1>#1 Rated HR Software 2025</h1>
                 </div>
                 <div className='rated--hr'>
-                    <h1>#1 Rated HR<br/> Software</h1>
+                    <h1>#1 Rated HR<br /> Software</h1>
                 </div>
                 <div className='hr-p'>
                     <p><p>One Easy-to-Use Platform for Everything HR</p></p>
@@ -657,6 +658,70 @@ function Home() {
 
                     </div>
 
+                </div>
+
+                <div className='customers-mobile-green'>
+                    <div>
+                        <div className='mobile_green'>
+                            <div className='mobile-white'>
+
+                            </div>
+
+                        </div>
+                        <div className='mobile_green-two'>
+                            <div className='mobile-white-two'>
+
+                            </div>
+
+                        </div>
+                        <div className='mobile_green-three'>
+                            <div className='mobile-white-three'>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div className='mobile_green-fr'>
+                            <div className='mobile-white-fr'>
+
+                            </div>
+
+                        </div>
+                        <div className='mobile_green-two'>
+                            <div className='mobile-white-two'>
+
+                            </div>
+
+                        </div>
+                        <div className='mobile_green-three'>
+                            <div className='mobile-white-three'>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className='mobile_green'>
+                            <div className='mobile-white'>
+
+                            </div>
+
+                        </div>
+                        <div className='mobile_green-two'>
+                            <div className='mobile-white-two'>
+
+                            </div>
+
+                        </div>
+                        <div className='mobile_green-three'>
+                            <div className='mobile-white-three'>
+
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
                 <br />
                 <br />

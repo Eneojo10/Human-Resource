@@ -53,6 +53,7 @@ function Navigation() {
                                 <div className="sidebar-header">
                                     <FiX size={28} className="close-icon" onClick={toggleMenu} />
                                 </div>
+                                <br/>
                                 <a href='/' className='mb-line'>
                                     <div className='mb-iconflex'>
                                         <div>

@@ -1,4 +1,4 @@
-import React, { useState,useRef } from 'react'
+import React, { useState, useRef } from 'react'
 import Navigation from '../Navigation/Navigation'
 import { FaRegCheckCircle } from "react-icons/fa";
 import { IoCheckmarkOutline } from "react-icons/io5";
@@ -34,7 +34,7 @@ function Pricing() {
             answer: 'Yes! Volume discounts are automatically applied to all accounts based on headcount. Your discount will increase as your headcount increases—no need to request it or negotiate new pricing. We also offer an additional 5% off to registered nonprofit organizations.'
         },
         {
-            question: 'How many countries is BambooHR in?',
+            question: 'How many countries is EnesHR in?',
             answer: 'Our customers (and their companies) are based in Nigeria for now.'
         }
     ]
@@ -44,7 +44,12 @@ function Pricing() {
             <div className='home-page-price'>
                 <div className='price-plan'>
                     <div className='plans'>
-                        <h1>Get EnesHR Plans <br /> and Pricing</h1>
+                        <div className='gt-plans'>
+                            <h1>Get EnesHR Plans <br /> and Pricing</h1>
+                        </div>
+                        <div className='get-plans'>
+                            <h1>Get <br/>   EnesHR Plans <br /> and Pricing</h1>
+                        </div>
                         <br />
                         <br />
                         <br />
@@ -74,7 +79,7 @@ function Pricing() {
                             </div>
                         </div>
                     </div>
-                    <div className='pricing-form'ref={formRef} >
+                    <div className='pricing-form' ref={formRef} >
                         <div className='get-pricing'>
                             <div className='gp'>
                                 <h2>Get Pricing</h2>
@@ -352,11 +357,11 @@ function Pricing() {
                             </div>
 
                         </div>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
 
                     </div>
                 </div>
@@ -424,14 +429,14 @@ function Pricing() {
                             <p><span className='saved'>Saved</span> N10,000,000 a year in time-savings using pre-built and custom reports.</p>
                         </div>
                         <hr></hr>
-                        <br/>
-                        <br/>
+                        <br />
+                        <br />
                         <div className='aone'>
                             <p><span className='saved'>Saved</span> N5,000,000 a year in time-savings using pre-built and custom reports.</p>
                         </div>
                         <hr></hr>
-                        <br/>
-                        <br/>
+                        <br />
+                        <br />
                         <div className='aone'>
                             <p>Saved <span className='saved'>hours of manual work every week</span> with automated data pulls and custom reporting.</p>
                         </div>
