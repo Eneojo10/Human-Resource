@@ -1559,4 +1559,8 @@
   .fcc p{
     font-size: 13px;
   }
+
+  .footer{
+    padding: 20px;
+  }
 }
