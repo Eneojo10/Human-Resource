@@ -664,6 +664,14 @@ function Home() {
                     <div>
                         <div className='mobile_green'>
                             <div className='mobile-white'>
+                                <div className='mwt'>
+                                    <h4>The way EnesHR has designed the product has been very thoughtful - they've really, genuinely understood the needs of the employee of HR. It's been great. We're so lucky that we found EnesHR. I still than my lucky stars that we didn't land with anyone but them.</h4>
+
+                                    <div className='mwt-image'>
+                                        <img src={user} alt='' />
+
+                                    </div>
+                                </div>
 
                             </div>
 
@@ -676,6 +684,14 @@ function Home() {
                         </div>
                         <div className='mobile_green-three'>
                             <div className='mobile-white-three'>
+                                <div className='mwt'>
+                                    <h4>EnesHR is easy to use, and the support is excellent. And that's what HR professionals want.</h4>
+
+                                    <div className='mwt-image'>
+                                        <img src={user} alt='' />
+
+                                    </div>
+                                </div>
 
                             </div>
 
@@ -684,8 +700,19 @@ function Home() {
                     <div>
                         <div className='mobile_green-fr'>
                             <div className='mobile-white-fr'>
+                                <div className='mwt'>
+                                    <h4>EnesHR was easy to learn and start using for everyone at the company and made it easy to be in compliance with an evolving workforce.</h4>
+
+                                    <div className='mwt-image'>
+                                        <img src={user} alt='' />
+
+                                    </div>
+                                </div>
+
 
                             </div>
+
+
 
                         </div>
                         <div className='mobile_green-two'>
@@ -705,6 +732,16 @@ function Home() {
                     <div>
                         <div className='mobile_green'>
                             <div className='mobile-white'>
+                                <div className='mwt'>
+                                    <h4>EnesHR changed the way HR delivers value to the business. We can now collaborate with other departments and be secure in metrics like headcount, pay rate, and PTO accrual.</h4>
+
+                                    <div className='mwt-image'>
+                                        <img src={user} alt='' />
+
+                                    </div>
+                                </div>
+
+
 
                             </div>
 
