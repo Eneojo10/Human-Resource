@@ -217,7 +217,7 @@ function Home() {
                                 </div>
                                 <div className="slide-one">
                                     <div className='c_text'>
-                                        <h3>If you are looking for a product that is very clean and easy to use then BambooHR would be great.</h3>
+                                        <h3>If you are looking for a product that is very clean and easy to use then EnesHR would be great.</h3>
                                     </div>
                                     <div className='flex-card'>
                                         <div className='cards-image'>
@@ -701,11 +701,18 @@ function Home() {
                         <div className='mobile_green-fr'>
                             <div className='mobile-white-fr'>
                                 <div className='mwt'>
+
                                     <h4>EnesHR was easy to learn and start using for everyone at the company and made it easy to be in compliance with an evolving workforce.</h4>
 
-                                    <div className='mwt-image'>
-                                        <img src={user} alt='' />
+                                    <div className='flex-card'>
+                                        <div className='mwt-image'>
+                                            <img src={user} alt='' />
 
+                                        </div>
+                                        <div className='fcc'>
+                                            <h4>Ameh Sunday</h4>
+                                            <p>HR Manager at Dangote</p>
+                                        </div>
                                     </div>
                                 </div>
 
