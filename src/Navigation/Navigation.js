@@ -100,6 +100,16 @@ function Navigation() {
                                                 <MdKeyboardArrowRight />
                                             </div>
                                         </div>
+                                        <div className="mb-bottom"></div>
+                                        <div
+                                            className="mb-line"
+                                            onClick={() => setActiveMenu("why")}
+                                        >
+                                            <div className="mb-iconflex">
+                                                <h4>Why EnesHR?</h4>
+                                                <MdKeyboardArrowRight />
+                                            </div>
+                                        </div>
 
                                         <div className="mb-bottom"></div>
                                         <div
@@ -218,8 +228,75 @@ function Navigation() {
                                             <MdKeyboardArrowLeft /> <span>Back</span>
                                         </div>
                                         <div className="submenu">
-                                            <h4>Solutions</h4>
-                                            <a href="/small-business">EnesHR Services</a>
+                                            <div
+                                                className="mb-line"
+                                                onClick={() => setActiveMenu("solutions")}
+                                            >
+                                                <div className="mb-iconflex">
+                                                    <h3>Industry</h3>
+                                                    <div>
+                                                        <MdKeyboardArrowRight />
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div className="submenu">
+                                            <div
+                                                className="mb-line"
+                                                onClick={() => setActiveMenu("solutions")}
+                                            >
+                                                <div className="mb-iconflex">
+                                                    <h3>Stakeholder Solutions</h3>
+                                                    <div>
+                                                        <MdKeyboardArrowRight />
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div className="submenu">
+                                            <div
+                                                className="mb-line"
+                                                onClick={() => setActiveMenu("solutions")}
+                                            >
+                                                <div className="mb-iconflex">
+                                                    <h3>Solutions by Company Size</h3>
+                                                    <div>
+                                                        <MdKeyboardArrowRight />
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <h3>EnesHR Services</h3>
+                                        <br />
+                                        <div className="d-line_"></div>
+                                        <br />
+                                        <div className="numbers">
+                                            <h4>+2347062304776</h4>
+                                        </div>
+                                    </div>
+                                )}
+                                {activeMenu === "why" && (
+                                    <div>
+                                        <div
+                                            className="mb-line back-btn"
+                                            onClick={() => setActiveMenu("main")}
+                                        >
+                                            <MdKeyboardArrowLeft /> <span>Back</span>
+                                        </div>
+                                        <div className="submenu">
+                                            <h4>We Set You Free</h4><br />
+                                            <h4>Case Studies</h4>
+                                            <br />
+                                            <div className="d-line_"></div>
+                                            <br />
+                                            <div className="numbers">
+                                                <h4>+2347062304776</h4>
+                                            </div>
+
                                         </div>
                                     </div>
                                 )}
@@ -233,12 +310,22 @@ function Navigation() {
                                             <MdKeyboardArrowLeft /> <span>Back</span>
                                         </div>
                                         <div className="submenu">
-                                            <h4>About</h4>
-                                            <a href="/company">Our Story</a>
-                                            <a href="/team">Partner with Us</a>
-                                            <a href="/careers">Careers</a>
-                                            <a href="/ai-principles">AI Principles</a>
-                                            <a href="/data-principles">Data Principles</a>
+                                            <h4>Our Story</h4>
+                                            <h4>Media</h4>
+                                            <h4>Careers</h4>
+                                            <h4>Events</h4>
+                                            <h4>Partner With Us</h4>
+                                            <h4>Contact</h4>
+                                            <h4>AI Principles</h4>
+                                            <h4>Data Principles</h4>
+
+                                            <br />
+                                            <div className="d-line_"></div>
+                                            <br />
+                                            <div className="numbers">
+                                                <h4>+2347062304776</h4>
+                                            </div>
+
                                         </div>
                                     </div>
                                 )}

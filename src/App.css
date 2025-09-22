@@ -1614,5 +1614,10 @@
   }
   .numbers{
     color: green;
+    text-decoration: none;
+  }
+
+  .submenu{
+    line-height: 35px;
   }
 }
