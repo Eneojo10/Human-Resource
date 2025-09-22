@@ -727,6 +727,7 @@
   padding-top: 4px;
   height: 34px;
   margin-top: -5px;
+  color: #2e7918;
 }
 .price-info {
   width: 85%;
@@ -1089,6 +1090,14 @@
 .customers-mobile-green {
   display: none;
 }
+.d-slider-two{
+  display: none;
+   display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  transition: transform 0.5s ease-in-out;
+}
 
 /* .p_input .error {
   display: block;
@@ -1194,8 +1203,11 @@
     display: block;
   }
   .allstars {
-    width: 45%;
+    width: 30%;
     margin: auto;
+  }
+  .two-star{
+    width: 85%;
   }
   .all-flex {
     display: grid;
@@ -1281,7 +1293,7 @@
     top: 0;
     left: 0;
     height: auto;
-    width: 250px;
+    width: 280px;
     background-color: #fff;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -1422,8 +1434,11 @@
     width: 100%;
   }
   .d-slider {
-    display: block;
+    display: none;
     width: 100%;
+  }
+  .d-slider-two{
+    display: block;
   }
   .slide-one {
     margin-bottom: 20px;
@@ -1562,5 +1577,42 @@
 
   .footer{
     padding: 20px;
+  }
+
+  .home-page{
+    height: auto;
+  }
+
+  .com-icon{
+    background-color: transparent;
+  }
+  .stories-real{
+    width: 95%;
+    margin: auto;
+  }
+
+  .dropdown-content{
+    line-height: 30px;
+  }
+
+  .report-mobile{
+    width: 10%;
+  }
+
+  .report-mobile img{
+    width: 100%;
+  }
+
+  .flex-onmobile{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .dropdown-content{
+    width: 100%;
+  }
+  .numbers{
+    color: green;
   }
 }

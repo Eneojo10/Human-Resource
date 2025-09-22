@@ -48,7 +48,7 @@ function Pricing() {
                             <h1>Get EnesHR Plans <br /> and Pricing</h1>
                         </div>
                         <div className='get-plans'>
-                            <h1>Get <br/>   EnesHR Plans <br /> and Pricing</h1>
+                            <h1>Get <br />EnesHR Plans <br /> and Pricing</h1>
                         </div>
                         <br />
                         <br />
@@ -75,9 +75,10 @@ function Pricing() {
                                 <FaRegCheckCircle />
                             </div>
                             <div>
-                                <p><span className='com'>One low monthly payment.</span> Cancel at any time.</p>
+                                <p><span className='com'>Flexible.</span> Find the perfect fit with multiple plan options and add-ons.</p>
                             </div>
                         </div>
+
                     </div>
                     <div className='pricing-form' ref={formRef} >
                         <div className='get-pricing'>
@@ -400,9 +401,11 @@ function Pricing() {
 
             <div className='home-page'>
                 <div className='real'>
-                    <h1>Real stories, real impact</h1>
-                    <br />
-                    <p>See how businesses succeed with our HR software. Read our customer stories</p>
+                    <div className='stories-real'>
+                        <h1>Real stories, real impact</h1>
+                        <br />
+                        <p>See how businesses succeed with our HR software. Read our customer stories</p>
+                    </div>
                     <br />
                     <br />
                     <br />
