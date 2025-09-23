@@ -150,6 +150,7 @@ function Home() {
                     </div>
                 </div>
                 <br />
+                <br />
                 <div className='demo-color'>
                     <h4>Get My Free Demo</h4>
                 </div>
@@ -249,7 +250,7 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div className="slide-one">
                                     <div className='c_text'>
                                         <h3>If you are looking for a product that is very clean and easy to use then EnesHR would be great.</h3>
@@ -533,7 +534,7 @@ function Home() {
                     <hr className='hr-'></hr>
                     <div className='vertical'></div>
                     <div className='aone'>
-                        <p>Saved N10,000,000 a year in time-savings using pre-built and custom reports.</p>
+                        <p>Saved N10,000,000 a year -...in time-savings using pre-built and custom reports.</p>
                     </div>
                     <hr className='hr-'></hr>
                     <div className='vertical'></div>
@@ -702,7 +703,7 @@ function Home() {
                                 <div className='mwt'>
                                     <h4>The way EnesHR has designed the product has been very thoughtful - they've really, genuinely understood the needs of the employee of HR. It's been great. We're so lucky that we found EnesHR. I still thank my lucky stars that we didn't land with anyone but them.</h4>
 
-                                   <div className='flex-card'>
+                                    <div className='flex-card'>
                                         <div className='mwt-image'>
                                             <img src={user} alt='' />
 

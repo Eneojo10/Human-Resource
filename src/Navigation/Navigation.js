@@ -33,17 +33,18 @@ function Navigation() {
         <div>
             <div className="navigation">
                 <div className="nav-details">
-                    <div className="leftnav-side">
-                        <div className="nav-leaf">
-                            <div className="le-af">
-                                <img src={logo} alt="" />
-                            </div>
-                            <a href="/">
-                                <div className="dropdown">
-                                    <h2>enesHR</h2>
-                                </div>
-                            </a>
+                    <div className="nav-leaf">
+                        <div className="le-af">
+                            <img src={logo} alt="" />
                         </div>
+                        <a href="/" className="line">
+                            <div className="dropdownn">
+                                <h2>enes<span className="nav-hr">HR</span></h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="leftnav-side">
+
 
                         {/* Hamburger */}
                         <div className="hamburger-container">
@@ -56,7 +57,7 @@ function Navigation() {
                                 </div>
                                 <a href="/">
                                     <div className="eneshrimage">
-                                        <h2>enesHR</h2>
+                                        <h2>enes<span className="nav-hr">HR</span></h2>
                                     </div>
                                 </a>
                             </div>
@@ -332,8 +333,126 @@ function Navigation() {
                             </div>
                         )}
 
-                        {/* Desktop Menus (unchanged) */}
-                        {/* ... keep your dropdowns here ... */}
+                        <div className='dropdown'>
+
+                            <h4>Our Platform</h4>
+                            <div className='dropdown-menu-'>
+                                <div className='pd'>
+                                    <div>
+                                        <a href='/time-attendance'><h3>Our Platform</h3></a>
+                                        <a href='/payroll'>Platform Overview</a>
+                                        <a href='/benefits'>Video Tour</a>
+                                        <a href='/benefits'>Integration Marketplace</a>
+                                    </div>
+
+                                    <div className='platform--border'>
+                                        <div className='platform-boder'>
+                                            <div className='navigationflex'>
+                                                <div className='nav-mainflex'>
+                                                    <div className='nav-reporting'>
+                                                        <div className='navigation-icon'>
+                                                            <CiDatabase />
+                                                        </div>
+                                                        <div>
+                                                            <h4>HR Data & Reporting</h4>
+                                                        </div>
+                                                    </div>
+                                                    <div className='nav-reporting'>
+                                                        <div className='navigation-icon'>
+                                                            <RxTimer />
+                                                        </div>
+                                                        <div>
+                                                            <h4>Time & Attendance</h4>
+                                                        </div>
+                                                    </div>
+                                                    <div className='nav-reporting'>
+                                                        <div className='navigation-icon'>
+                                                            <MdOutlineSpatialTracking />
+                                                        </div>
+                                                        <div>
+                                                            <h4>Applicant Tracking System</h4>
+                                                        </div>
+                                                    </div>
+                                                    <div className='nav-reporting'>
+                                                        <div className='navigation-icon'>
+                                                            <MdPersonAddAlt />
+                                                        </div>
+                                                        <div>
+                                                            <h4>Onboarding</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className='nav-mainflex'>
+                                                    <div className='nav-reporting'>
+                                                        <div className='navigation-icon'>
+                                                            <CgPerformance />
+                                                        </div>
+                                                        <div>
+                                                            <h4>Performance Management</h4>
+                                                        </div>
+                                                    </div>
+                                                    <div className='nav-reporting'>
+                                                        <div className='navigation-icon'>
+                                                            <ImStarEmpty />
+                                                        </div>
+                                                        <div>
+                                                            <h4>Employee Experience</h4>
+                                                        </div>
+                                                    </div>
+                                                    <div className='nav-reporting'>
+                                                        <div className='navigation-icon'>
+                                                            <GoGift />
+                                                        </div>
+                                                        <div>
+                                                            <h4>Benefits</h4>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <br />
+                                            <br />
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <br />
+
+                                <div className='d-line___'></div>
+                            </div>
+
+
+                        </div>
+
+                        {/* Pricing (no dropdown) */}
+                        <a href='/pricing' className='line'>
+                            <div className='dropdown'>
+                                <h4>Pricing</h4>
+                            </div>
+                        </a>
+
+                        {/* Solutions dropdown */}
+                        <div className='dropdown'>
+                            <h4>Solutions</h4>
+                            <div className='dropdown-menu'>
+                                <a href='/small-business'>EnesHR Services</a>
+
+                            </div>
+                        </div>
+
+                        {/* About dropdown */}
+                        <div className='dropdown'>
+                            <h4>About</h4>
+                            <div className='dropdown-menu'>
+                                <a href='/company'>Our Story</a>
+                                <a href='/team'>Partner with Us</a>
+                                <a href='/careers'>Contact</a>
+                                <a href='/careers'>AI Principles</a>
+                                <a href='/careers'>Data Principles</a>
+                            </div>
+                        </div>
+
                     </div>
 
                     {/* Right Side */}
