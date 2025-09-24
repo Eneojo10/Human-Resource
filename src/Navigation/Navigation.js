@@ -43,295 +43,295 @@ function Navigation() {
                             </div>
                         </a>
                     </div>
-                    <div className="leftnav-side">
 
-
-                        {/* Hamburger */}
-                        <div className="hamburger-container">
-                            <div className="hamburger" onClick={toggleMenu}>
-                                {isOpen ? <FiX size={28} /> : <FiMenu size={28} />}
-                            </div>
-                            <div className="nav--leaf">
-                                <div className="le-af">
-                                    <img src={logo} alt="" />
-                                </div>
-                                <a href="/">
-                                    <div className="eneshrimage">
-                                        <h2>enes<span className="nav-hr">HR</span></h2>
-                                    </div>
-                                </a>
-                            </div>
+                    <div className="hamburger-container">
+                        <div className="hamburger" onClick={toggleMenu}>
+                            {isOpen ? <FiX size={28} /> : <FiMenu size={28} />}
                         </div>
-
-                        {/* Mobile Sidebar */}
-                        {isOpen && (
-                            <div className={`mobile-sidebar ${isOpen ? "open" : ""}`}>
-                                <div className="sidebar-header">
-                                    <FiX size={28} className="close-icon" onClick={toggleMenu} />
+                        <div className="nav--leaf">
+                            <div className="le-af">
+                                <img src={logo} alt="" />
+                            </div>
+                            <a href="/" className="line">
+                                <div className="eneshrimage">
+                                    <h2>enes<span className="nav-hr">HR</span></h2>
                                 </div>
-                                <br />
+                            </a>
+                        </div>
+                       
+                    </div>
 
-                                {/* MAIN MENU */}
-                                {activeMenu === "main" && (
-                                    <>
-                                        <div
-                                            className="mb-line"
-                                            onClick={() => setActiveMenu("platform")}
-                                        >
-                                            <div className="mb-iconflex">
-                                                <h4>Our Platform</h4>
-                                                <MdKeyboardArrowRight />
+                    {/* Mobile Sidebar */}
+                    {isOpen && (
+                        <div className={`mobile-sidebar ${isOpen ? "open" : ""}`}>
+                            <div className="sidebar-header">
+                                <FiX size={28} className="close-icon" onClick={toggleMenu} />
+                            </div>
+                            <br />
+
+                            {/* MAIN MENU */}
+                            {activeMenu === "main" && (
+                                <>
+                                    <div
+                                        className="mb-line"
+                                        onClick={() => setActiveMenu("platform")}
+                                    >
+                                        <div className="mb-iconflex">
+                                            <h4>Our Platform</h4>
+                                            <MdKeyboardArrowRight />
+                                        </div>
+                                    </div>
+
+                                    <div className="mb-bottom"></div>
+                                    <a href="/pricing" className="mb-line">
+                                        <div className="mb-iconflex">
+                                            <h4>Pricing</h4>
+                                        </div>
+                                    </a>
+
+                                    <div className="mb-bottom"></div>
+                                    <div
+                                        className="mb-line"
+                                        onClick={() => setActiveMenu("solutions")}
+                                    >
+                                        <div className="mb-iconflex">
+                                            <h4>Solutions</h4>
+                                            <MdKeyboardArrowRight />
+                                        </div>
+                                    </div>
+                                    <div className="mb-bottom"></div>
+                                    <div
+                                        className="mb-line"
+                                        onClick={() => setActiveMenu("why")}
+                                    >
+                                        <div className="mb-iconflex">
+                                            <h4>Why EnesHR?</h4>
+                                            <MdKeyboardArrowRight />
+                                        </div>
+                                    </div>
+
+                                    <div className="mb-bottom"></div>
+                                    <div
+                                        className="mb-line"
+                                        onClick={() => setActiveMenu("about")}
+                                    >
+                                        <div className="mb-iconflex">
+                                            <h4>About</h4>
+                                            <MdKeyboardArrowRight />
+                                        </div>
+                                    </div>
+
+                                    <div className="mb-bottom"></div>
+                                    <a href="/" className="mb-line">
+                                        <div className="mb-iconflex">
+                                            <div className="naija-flag">
+                                                <div className="mobile-image">
+                                                    <img src={image} alt="" />
+                                                </div>
+                                                <h4>Nigeria (NG)</h4>
                                             </div>
+                                            <MdKeyboardArrowRight />
+                                        </div>
+                                    </a>
+
+                                    <div className="mb-bottom"></div>
+                                    <div className="mb-number">
+                                        <p>+2347062304776</p>
+                                    </div>
+                                </>
+                            )}
+
+                            {/* SUBMENUS */}
+
+                            {activeMenu === "platform" && (
+                                <div>
+                                    <div
+                                        className="mb-line back-btn"
+                                        onClick={() => setActiveMenu("main")}
+                                    >
+                                        <MdKeyboardArrowLeft /> <span>Back</span>
+                                    </div>
+                                    <div className="submenu">
+                                        <h3>Our Platform</h3>
+                                        <div className="dropdown-content">
+                                            <p>Platform Overview</p>
+                                            <p>Video Tour</p>
+                                            <p>Integrations Marketplace</p>
                                         </div>
 
-                                        <div className="mb-bottom"></div>
-                                        <a href="/pricing" className="mb-line">
-                                            <div className="mb-iconflex">
-                                                <h4>Pricing</h4>
+                                        <div className="flex-onmobile">
+                                            <div className="report-mobile">
+                                                <img src={reporting} alt="" />
                                             </div>
-                                        </a>
+                                            <div>
+                                                <p>HR Data & Reporting</p>
+                                            </div>
+                                        </div>
+                                        <div className="flex-onmobile">
+                                            <div className="report-mobile">
+                                                <img src={benefits} alt="" />
+                                            </div>
+                                            <div>
+                                                <p>Benefits</p>
+                                            </div>
+                                        </div>
+                                        <div className="flex-onmobile">
+                                            <div className="report-mobile">
+                                                <img src={time} alt="" />
+                                            </div>
+                                            <div>
+                                                <p>Time</p>
+                                            </div>
+                                        </div>
+                                        <div className="flex-onmobile">
+                                            <div className="report-mobile">
+                                                <img src={onboard} alt="" />
+                                            </div>
+                                            <div>
+                                                <p>Onboarding</p>
+                                            </div>
+                                        </div>
+                                        <div className="flex-onmobile">
+                                            <div className="report-mobile">
+                                                <img src={performance} alt="" />
+                                            </div>
+                                            <div>
+                                                <p>Performance Management</p>
+                                            </div>
+                                        </div>
+                                        <div className="flex-onmobile">
+                                            <div className="report-mobile">
+                                                <img src={employee} alt="" />
+                                            </div>
+                                            <div>
+                                                <p>Employee Experience</p>
+                                            </div>
+                                        </div>
+                                        <br />
+                                        <p>See our Product Updates</p>
+                                        <br />
+                                        <div className="d-line_"></div>
+                                        <div className="numbers">
+                                            <h4>+2347062304776</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
 
-                                        <div className="mb-bottom"></div>
+                            {activeMenu === "solutions" && (
+                                <div>
+                                    <div
+                                        className="mb-line back-btn"
+                                        onClick={() => setActiveMenu("main")}
+                                    >
+                                        <MdKeyboardArrowLeft /> <span>Back</span>
+                                    </div>
+                                    <div className="submenu">
                                         <div
                                             className="mb-line"
                                             onClick={() => setActiveMenu("solutions")}
                                         >
                                             <div className="mb-iconflex">
-                                                <h4>Solutions</h4>
-                                                <MdKeyboardArrowRight />
-                                            </div>
-                                        </div>
-                                        <div className="mb-bottom"></div>
-                                        <div
-                                            className="mb-line"
-                                            onClick={() => setActiveMenu("why")}
-                                        >
-                                            <div className="mb-iconflex">
-                                                <h4>Why EnesHR?</h4>
-                                                <MdKeyboardArrowRight />
+                                                <h3>Industry</h3>
+                                                <div>
+                                                    <MdKeyboardArrowRight />
+                                                </div>
                                             </div>
                                         </div>
 
-                                        <div className="mb-bottom"></div>
-                                        <div
-                                            className="mb-line"
-                                            onClick={() => setActiveMenu("about")}
-                                        >
-                                            <div className="mb-iconflex">
-                                                <h4>About</h4>
-                                                <MdKeyboardArrowRight />
-                                            </div>
-                                        </div>
-
-                                        <div className="mb-bottom"></div>
-                                        <a href="/" className="mb-line">
-                                            <div className="mb-iconflex">
-                                                <div className="naija-flag">
-                                                    <div className="mobile-image">
-                                                        <img src={image} alt="" />
-                                                    </div>
-                                                    <h4>Nigeria (NG)</h4>
-                                                </div>
-                                                <MdKeyboardArrowRight />
-                                            </div>
-                                        </a>
-
-                                        <div className="mb-bottom"></div>
-                                        <div className="mb-number">
-                                            <p>+2347062304776</p>
-                                        </div>
-                                    </>
-                                )}
-
-                                {/* SUBMENUS */}
-
-                                {activeMenu === "platform" && (
-                                    <div>
-                                        <div
-                                            className="mb-line back-btn"
-                                            onClick={() => setActiveMenu("main")}
-                                        >
-                                            <MdKeyboardArrowLeft /> <span>Back</span>
-                                        </div>
-                                        <div className="submenu">
-                                            <h3>Our Platform</h3>
-                                            <div className="dropdown-content">
-                                                <p>Platform Overview</p>
-                                                <p>Video Tour</p>
-                                                <p>Integrations Marketplace</p>
-                                            </div>
-
-                                            <div className="flex-onmobile">
-                                                <div className="report-mobile">
-                                                    <img src={reporting} alt="" />
-                                                </div>
-                                                <div>
-                                                    <p>HR Data & Reporting</p>
-                                                </div>
-                                            </div>
-                                            <div className="flex-onmobile">
-                                                <div className="report-mobile">
-                                                    <img src={benefits} alt="" />
-                                                </div>
-                                                <div>
-                                                    <p>Benefits</p>
-                                                </div>
-                                            </div>
-                                            <div className="flex-onmobile">
-                                                <div className="report-mobile">
-                                                    <img src={time} alt="" />
-                                                </div>
-                                                <div>
-                                                    <p>Time</p>
-                                                </div>
-                                            </div>
-                                            <div className="flex-onmobile">
-                                                <div className="report-mobile">
-                                                    <img src={onboard} alt="" />
-                                                </div>
-                                                <div>
-                                                    <p>Onboarding</p>
-                                                </div>
-                                            </div>
-                                            <div className="flex-onmobile">
-                                                <div className="report-mobile">
-                                                    <img src={performance} alt="" />
-                                                </div>
-                                                <div>
-                                                    <p>Performance Management</p>
-                                                </div>
-                                            </div>
-                                            <div className="flex-onmobile">
-                                                <div className="report-mobile">
-                                                    <img src={employee} alt="" />
-                                                </div>
-                                                <div>
-                                                    <p>Employee Experience</p>
-                                                </div>
-                                            </div>
-                                            <br />
-                                            <p>See our Product Updates</p>
-                                            <br />
-                                            <div className="d-line_"></div>
-                                            <div className="numbers">
-                                                <h4>+2347062304776</h4>
-                                            </div>
-                                        </div>
                                     </div>
-                                )}
-
-                                {activeMenu === "solutions" && (
-                                    <div>
+                                    <div className="submenu">
                                         <div
-                                            className="mb-line back-btn"
-                                            onClick={() => setActiveMenu("main")}
+                                            className="mb-line"
+                                            onClick={() => setActiveMenu("solutions")}
                                         >
-                                            <MdKeyboardArrowLeft /> <span>Back</span>
-                                        </div>
-                                        <div className="submenu">
-                                            <div
-                                                className="mb-line"
-                                                onClick={() => setActiveMenu("solutions")}
-                                            >
-                                                <div className="mb-iconflex">
-                                                    <h3>Industry</h3>
-                                                    <div>
-                                                        <MdKeyboardArrowRight />
-                                                    </div>
+                                            <div className="mb-iconflex">
+                                                <h3>Stakeholder Solutions</h3>
+                                                <div>
+                                                    <MdKeyboardArrowRight />
                                                 </div>
                                             </div>
-
                                         </div>
-                                        <div className="submenu">
-                                            <div
-                                                className="mb-line"
-                                                onClick={() => setActiveMenu("solutions")}
-                                            >
-                                                <div className="mb-iconflex">
-                                                    <h3>Stakeholder Solutions</h3>
-                                                    <div>
-                                                        <MdKeyboardArrowRight />
-                                                    </div>
+
+                                    </div>
+                                    <div className="submenu">
+                                        <div
+                                            className="mb-line"
+                                            onClick={() => setActiveMenu("solutions")}
+                                        >
+                                            <div className="mb-iconflex">
+                                                <h3>Solutions by Company Size</h3>
+                                                <div>
+                                                    <MdKeyboardArrowRight />
                                                 </div>
                                             </div>
-
-                                        </div>
-                                        <div className="submenu">
-                                            <div
-                                                className="mb-line"
-                                                onClick={() => setActiveMenu("solutions")}
-                                            >
-                                                <div className="mb-iconflex">
-                                                    <h3>Solutions by Company Size</h3>
-                                                    <div>
-                                                        <MdKeyboardArrowRight />
-                                                    </div>
-                                                </div>
-                                            </div>
-
                                         </div>
 
-                                        <h3>EnesHR Services</h3>
+                                    </div>
+
+                                    <h3>EnesHR Services</h3>
+                                    <br />
+                                    <div className="d-line_"></div>
+                                    <br />
+                                    <div className="numbers">
+                                        <h4>+2347062304776</h4>
+                                    </div>
+                                </div>
+                            )}
+                            {activeMenu === "why" && (
+                                <div>
+                                    <div
+                                        className="mb-line back-btn"
+                                        onClick={() => setActiveMenu("main")}
+                                    >
+                                        <MdKeyboardArrowLeft /> <span>Back</span>
+                                    </div>
+                                    <div className="submenu">
+                                        <h4>We Set You Free</h4><br />
+                                        <h4>Case Studies</h4>
                                         <br />
                                         <div className="d-line_"></div>
                                         <br />
                                         <div className="numbers">
                                             <h4>+2347062304776</h4>
                                         </div>
+
                                     </div>
-                                )}
-                                {activeMenu === "why" && (
-                                    <div>
-                                        <div
-                                            className="mb-line back-btn"
-                                            onClick={() => setActiveMenu("main")}
-                                        >
-                                            <MdKeyboardArrowLeft /> <span>Back</span>
-                                        </div>
-                                        <div className="submenu">
-                                            <h4>We Set You Free</h4><br />
-                                            <h4>Case Studies</h4>
-                                            <br />
-                                            <div className="d-line_"></div>
-                                            <br />
-                                            <div className="numbers">
-                                                <h4>+2347062304776</h4>
-                                            </div>
+                                </div>
+                            )}
 
-                                        </div>
+                            {activeMenu === "about" && (
+                                <div>
+                                    <div
+                                        className="mb-line back-btn"
+                                        onClick={() => setActiveMenu("main")}
+                                    >
+                                        <MdKeyboardArrowLeft /> <span>Back</span>
                                     </div>
-                                )}
+                                    <div className="submenu">
+                                        <h4>Our Story</h4>
+                                        <h4>Media</h4>
+                                        <h4>Careers</h4>
+                                        <h4>Events</h4>
+                                        <h4>Partner With Us</h4>
+                                        <h4>Contact</h4>
+                                        <h4>AI Principles</h4>
+                                        <h4>Data Principles</h4>
 
-                                {activeMenu === "about" && (
-                                    <div>
-                                        <div
-                                            className="mb-line back-btn"
-                                            onClick={() => setActiveMenu("main")}
-                                        >
-                                            <MdKeyboardArrowLeft /> <span>Back</span>
+                                        <br />
+                                        <div className="d-line_"></div>
+                                        <br />
+                                        <div className="numbers">
+                                            <h4>+2347062304776</h4>
                                         </div>
-                                        <div className="submenu">
-                                            <h4>Our Story</h4>
-                                            <h4>Media</h4>
-                                            <h4>Careers</h4>
-                                            <h4>Events</h4>
-                                            <h4>Partner With Us</h4>
-                                            <h4>Contact</h4>
-                                            <h4>AI Principles</h4>
-                                            <h4>Data Principles</h4>
 
-                                            <br />
-                                            <div className="d-line_"></div>
-                                            <br />
-                                            <div className="numbers">
-                                                <h4>+2347062304776</h4>
-                                            </div>
-
-                                        </div>
                                     </div>
-                                )}
-                            </div>
-                        )}
+                                </div>
+                            )}
+                        </div>
+                    )}
+                    <div className="leftnav-side">
+
 
                         <div className='dropdown'>
 

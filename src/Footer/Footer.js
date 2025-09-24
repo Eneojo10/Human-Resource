@@ -151,19 +151,19 @@ function Footer() {
                     </div>
                     <div className='socials'>
                         <div className='social'>
-                            <div>
+                            <div className='icon-socials'>
                                 <CgFacebook />
                             </div>
-                            <div>
+                            <div className='icon-socials'>
                                 <FaXTwitter />
                             </div>
-                            <div>
+                            <div className='icon-socials'>
                                 <CiInstagram />
                             </div>
-                            <div>
+                            <div className='icon-socials'>
                                 <ImLinkedin2 />
                             </div>
-                            <div>
+                            <div className='icon-socials'>
                                 <CgYoutube />
                             </div>
                         </div>
