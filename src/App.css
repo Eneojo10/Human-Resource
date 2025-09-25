@@ -1173,7 +1173,7 @@
     margin-bottom: 10px;
   }
   .leaf-flex {
-    width: 95%;
+    width: 55%;
     margin: auto;
     text-align: center;
     margin-top: 40px;
@@ -1219,7 +1219,7 @@
     display: block;
   }
   .socials {
-    /* width: 100%; */
+    width: 100%;
     margin-top: 20px;
   }
   .social{
