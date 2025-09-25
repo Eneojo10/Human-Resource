@@ -489,16 +489,14 @@
   height: auto;
 }
 
-.footer {
-  width: 70%;
-  padding: 70px;
-  /* margin: auto; */
-}
+
 .footer-flex {
   display: flex;
-
+  width: 90%;
+  margin: auto;
   justify-content: space-between;
   color: white;
+  padding-top: 55px;
 }
 .roles {
   line-height: 34px;
@@ -1193,6 +1191,7 @@
   }
   .footer-flex {
     display: block;
+   
   }
   .role-three {
     margin-top: 20px;
@@ -1588,10 +1587,6 @@
     font-size: 13px;
   }
 
-  .footer {
-    padding: 20px;
-  }
-
   .home-page {
     height: auto;
   }
@@ -1750,10 +1745,7 @@
   .d-line__{
     width: 95%;
   }
-  .footer{
-    width: 95%;
-    padding: 50px;
-  }
+  
   .role-one h3,.role-three h4{
     font-size: 24px;
   }
@@ -1762,6 +1754,9 @@
   }
   .onboard-image {
     width: 100%;
+  }
+  .onboard-image{
+    width: 80%;
   }
   
   .rush{
