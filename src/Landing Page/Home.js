@@ -250,7 +250,7 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
+                                <br />
                                 <div className="slide-one">
                                     <div className='c_text'>
                                         <h3>If you are looking for a product that is very clean and easy to use then EnesHR would be great.</h3>
@@ -701,7 +701,7 @@ function Home() {
                         <div className='mobile_green'>
                             <div className='mobile-white'>
                                 <div className='mwt'>
-                                    <h4>The way EnesHR has designed the product has been very thoughtful - they've really, genuinely understood the needs of the employee of HR. It's been great. We're so lucky that we found EnesHR. I still thank my lucky stars that we didn't land with anyone but them.</h4><br/>
+                                    <h4>The way EnesHR has designed the product has been very thoughtful - they've really, genuinely understood the needs of the employee of HR. It's been great. We're so lucky that we found EnesHR. I still thank my lucky stars that we didn't land with anyone but them.</h4><br />
 
                                     <div className='flex-card'>
                                         <div className='mwt-image'>
@@ -727,11 +727,17 @@ function Home() {
                         <div className='mobile_green-three'>
                             <div className='mobile-white-three'>
                                 <div className='mwt'>
-                                    <h4>EnesHR is easy to use, and the support is excellent. And that's what HR professionals want.</h4><br/><br/>
+                                    <h4>EnesHR is easy to use, and the support is excellent. And that's what HR professionals want.</h4><br />
 
-                                    <div className='mwt-image'>
-                                        <img src={user} alt='' />
+                                    <div className='flex-card'>
+                                        <div className='mwt-image'>
+                                            <img src={user} alt='' />
 
+                                        </div>
+                                        <div className='fcc'>
+                                            <h4>Abigail Onah</h4>
+                                            <p>CEO at ChefHerbee</p>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -782,11 +788,17 @@ function Home() {
                         <div className='mobile_green'>
                             <div className='mobile-white'>
                                 <div className='mwt'>
-                                    <h4>EnesHR changed the way HR delivers value to the business. We can now collaborate with other departments and be secure in metrics like headcount, pay rate, and PTO accrual.</h4><br/><br/>
+                                    <h4>EnesHR changed the way HR delivers value to the business. We can now collaborate with other departments and be secure in metrics like headcount, pay rate, and PTO accrual.</h4><br /><br />
 
-                                    <div className='mwt-image'>
-                                        <img src={user} alt='' />
+                                    <div className='flex-card'>
+                                        <div className='mwt-image'>
+                                            <img src={user} alt='' />
 
+                                        </div>
+                                        <div className='fcc'>
+                                            <h4>Abigail Onah</h4>
+                                            <p>CEO at ChefHerbee</p>
+                                        </div>
                                     </div>
                                 </div>
 
