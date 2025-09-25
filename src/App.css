@@ -1179,7 +1179,7 @@
     width: 95%;
   }
   .text--side {
-    margin-top: 20px;
+    /* margin-top: 10px; */
   }
   .brown {
     display: none;
@@ -1766,7 +1766,7 @@
   }
   .text--side p{
     font-size: 20px;
-    margin-top: 8px;
+    /* margin-top: 8px; */
   }
   .socials{
     width: 100%;
