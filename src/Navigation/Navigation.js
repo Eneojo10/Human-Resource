@@ -19,6 +19,7 @@ import time from '../Images/time.webp'
 import onboard from '../Images/onboard.webp'
 import performance from '../Images/performance.webp'
 import employee from '../Images/employee.webp'
+import { CiBellOn } from "react-icons/ci";
 
 function Navigation() {
     const [isOpen, setIsOpen] = useState(false);
@@ -58,7 +59,7 @@ function Navigation() {
                                 </div>
                             </a>
                         </div>
-                       
+
                     </div>
 
                     {/* Mobile Sidebar */}
@@ -118,6 +119,21 @@ function Navigation() {
                                         <div className="mb-iconflex">
                                             <h4>About</h4>
                                             <MdKeyboardArrowRight />
+                                        </div>
+                                    </div>
+                                    <div className="mb-bottom"></div>
+                                    <div
+                                        className="mb-line"
+                                        onClick={() => setActiveMenu("solutions")}
+                                    >
+                                        <div className="bell">
+                                            <div className="bell-on">
+                                                <CiBellOn/>
+                                            </div>
+                                            <div className="mb-iconflex">
+                                                <h4>Announcement</h4>
+                                                <MdKeyboardArrowRight />
+                                            </div>
                                         </div>
                                     </div>
 
@@ -452,6 +468,7 @@ function Navigation() {
                                 <a href='/careers'>Data Principles</a>
                             </div>
                         </div>
+
 
                     </div>
 

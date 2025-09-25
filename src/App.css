@@ -1117,6 +1117,16 @@
     display: block;
     /* width: 100%; */
   }
+  .bell{
+    display: flex;
+  }
+  .bell-on{
+    font-size: 20px;
+  }
+
+  .iconflex h2{
+    font-size: 18px;
+  }
 
   .hire {
     width: 100%;
@@ -1178,9 +1188,7 @@
   .icon-image- {
     width: 95%;
   }
-  .text--side {
-    /* margin-top: 10px; */
-  }
+  
   .brown {
     display: none;
   }
@@ -1756,7 +1764,7 @@
     width: 100%;
   }
   .onboard-image{
-    width: 80%;
+    width: 60%;
   }
   
   .rush{
