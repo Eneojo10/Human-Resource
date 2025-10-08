@@ -128,7 +128,7 @@ function Navigation() {
                                     >
                                         <div className="bell">
                                             <div className="bell-on">
-                                                <CiBellOn/>
+                                                <CiBellOn />
                                             </div>
                                             <div className="mb-iconflex">
                                                 <h4>Announcement</h4>
@@ -480,9 +480,13 @@ function Navigation() {
                         <div className="numbers">
                             <h4>+2347062304776</h4>
                         </div>
-                        <div className="button">
-                            <button className="login-btn">Log In</button>
-                        </div>
+
+                        <a href="https://hris-indol.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <div className="button">
+                                <button className="login-btn">Log In</button>
+                            </div>
+                        </a>
+
                         <div>
                             <button className="login-btnn">Get a Demo</button>
                         </div>
