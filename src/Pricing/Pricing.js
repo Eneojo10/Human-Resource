@@ -22,7 +22,7 @@ function Pricing() {
 
     const faqs = [
         {
-            question: 'How much does EnesHR cost?',
+            question: 'How much does enesHR cost?',
             answer: 'For companies with more than 25 employees, our HR software is priced on a per-employee, per-month basis. For companies with 25 employees or fewer, our HR software is charged at a monthly flat rate starting at $360 USD/mo. We never require an annual contract, and we automatically apply volume discounts as your employee count rises. All this means you receive a great price for our HR software with no hassle on your end. Reach out to one of our account executives for a price quote.'
         },
         {
@@ -34,7 +34,7 @@ function Pricing() {
             answer: 'Yes! Volume discounts are automatically applied to all accounts based on headcount. Your discount will increase as your headcount increases—no need to request it or negotiate new pricing. We also offer an additional 5% off to registered nonprofit organizations.'
         },
         {
-            question: 'How many countries is EnesHR in?',
+            question: 'How many countries is enesHR in?',
             answer: 'Our customers (and their companies) are based in Nigeria for now.'
         }
     ]
@@ -45,10 +45,10 @@ function Pricing() {
                 <div className='price-plan'>
                     <div className='plans'>
                         <div className='gt-plans'>
-                            <h1>Get EnesHR Plans <br /> and Pricing</h1>
+                            <h1>Get enesHR Plans <br /> and Pricing</h1>
                         </div>
                         <div className='get-plans'>
-                            <h1>Get <br />EnesHR Plans <br /> and Pricing</h1>
+                            <h1>Get <br />enesHR Plans <br /> and Pricing</h1>
                         </div>
                         <br />
                         <br />
@@ -126,17 +126,17 @@ function Pricing() {
                                 <div className="country_input">
                                     <select id="employeeCount" required>
                                         <option value="" disabled selected>Select...</option>
-                                        <option value="1-10">1 - 10</option>
-                                        <option value="11-50">11 - 50</option>
-                                        <option value="51-100">51 - 100</option>
-                                        <option value="101-500">101 - 500</option>
-                                        <option value="500+">500+</option>
+                                        <option value="1-10">Nigeria</option>
+                                        <option value="1-10">Ghana</option>
+                                        <option value="1-10">Ethiopia</option>
+                                        <option value="1-10">France</option>
+                                       
                                     </select>
                                     <label htmlFor="employeeCount">Country*</label>
                                     {/* <span className="error">This field is required.</span> */}
                                 </div>
                                 <div className='form-footer'>
-                                    <p>I authorize EnesHR to keep me informed about its products,<br /> services and events through emails and phone calls. My data will be handled according to the Privacy Notice.</p>
+                                    <p>I authorize enesHR to keep me informed about its products,<br /> services and events through emails and phone calls. My data will be handled according to the Privacy Notice.</p>
                                 </div>
                                 <br />
                                 <br />
@@ -153,7 +153,7 @@ function Pricing() {
 
 
                 <div className='price-info'>
-                    <h1>EnesHR plans start at just $14.40 USD/mo per employee</h1>
+                    <h1>enesHR plans start at just $14.40 USD/mo per employee</h1>
                     <p>Volume and non-profit discounts are available</p>
 
                 </div>

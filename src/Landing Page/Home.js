@@ -18,6 +18,7 @@ import image1 from '../Images/dashboard.webp'
 import image2 from '../Images/hire image.webp'
 import image3 from '../Images/turnover.webp'
 import user from '../Images/user2.jpg'
+// import avatar from '../Images/redman.jpg'
 import logo from '../Images/logo-removebg-preview.png'
 import Footer from '../Footer/Footer'
 import pic from '../Images/WhatsApp_Image_2024-12-31_at_2.49.41_PM-removebg-preview.png'
@@ -52,14 +53,14 @@ function Home() {
 
     const faqs = [
         {
-            question: "What does EnesHR do?",
+            question: "What does enesHR do?",
             answer:
-                "EnesHR is the complete HR platform that brings all your employee data together in one place, giving you the data accuracy, security, and coordination you need to make data-driven decisions."
+                "enesHR is the complete HR platform that brings all your employee data together in one place, giving you the data accuracy, security, and coordination you need to make data-driven decisions."
         },
         {
-            question: "How much does EnesHR cost?",
+            question: "How much does enesHR cost?",
             answer:
-                "EnesHR pricing varies depending on the number of employees at your organization and the features you select. To get a free price quote, call 07062304776 or visit our pricing page."
+                "enesHR pricing varies depending on the number of employees at your organization and the features you select. To get a free price quote, call 07062304776 or visit our pricing page."
         },
         {
             question: "Is your support team outsourced?",
@@ -67,8 +68,8 @@ function Home() {
                 "No, our support team is entirely in-house to ensure you receive the best service possible."
         },
         {
-            question: 'How does BambooHR comply with data security regulations?',
-            answer: 'With global data centers strategically located in Nigeria, we can ensure compliance with -specific regulations and provide peace of mind for all our customers, no matter where they are located.'
+            question: 'How does enesHR comply with data security regulations?',
+            answer: 'With global data centers strategically located in Nigeria, we can ensure compliance with-specific regulations and provide peace of mind for all our customers, no matter where they are located.'
 
         },
 
@@ -79,20 +80,25 @@ function Home() {
         <div>
             <Navigation />
 
-            <div className='homepage'>
+            {/* <div className='homepage'>
                 <div className='trumpet'>
                     <div className='trump-icon'>
                         <img src={image} alt='' />
                     </div>
                     <div className='trump-text'>
                         <p>
-                            Expand Worldwide Effortlessly: Presenting EnesHR Employer of Record (EOR), powered by Remote!</p>
+                            Expand Worldwide Effortlessly: Presenting enesHR Employer of Record (EOR), powered by Remote!</p>
                     </div>
                 </div>
 
 
-            </div>
+            </div> */}
             <div className='home-page'>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
                 <br />
                 <br />
                 <div className='home-white-bg'>
@@ -112,7 +118,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='rated-hr'>
-                    <h1>#1 Rated HR Software 2025</h1>
+                    <h1>#1 Rated HR Software 2026</h1>
                 </div>
                 <div className='rated--hr'>
                     <h1>#1 Rated HR<br /> Software</h1>
@@ -158,7 +164,7 @@ function Home() {
                 <div className='remark'>
                     <div className='re-mark'>
                         <h1>
-                            See why 50 businesses love working with EnesHR</h1>
+                            See why 50 businesses love working with enesHR</h1>
                     </div>
                     <div className='re-marks'>
                         <h1>
@@ -218,7 +224,7 @@ function Home() {
                                 </div>
                                 <div className="slide-one">
                                     <div className='c_text'>
-                                        <h3>If you are looking for a product that is very clean and easy to use then EnesHR would be great.</h3>
+                                        <h3>If you are looking for a product that is very clean and easy to use then enesHR would be great.</h3>
                                     </div>
                                     <div className='flex-card'>
                                         <div className='cards-image'>
@@ -253,7 +259,7 @@ function Home() {
                                 <br />
                                 <div className="slide-one">
                                     <div className='c_text'>
-                                        <h3>If you are looking for a product that is very clean and easy to use then EnesHR would be great.</h3>
+                                        <h3>If you are looking for a product that is very clean and easy to use then enesHR would be great.</h3>
                                     </div>
                                     <div className='flex-card'>
                                         <div className='cards-image'>
@@ -281,6 +287,8 @@ function Home() {
                 <br />
                 <br />
                 <br />
+                <br />
+                <br />
 
 
 
@@ -293,7 +301,7 @@ function Home() {
 
             <div className='announcement'>
                 <div className='ments'>
-                    <h1>EnesHR announcements</h1>
+                    <h1>enesHR announcements</h1>
                 </div>
                 <br />
                 <br />
@@ -303,7 +311,7 @@ function Home() {
                 <div className='all-announcement'>
                     <div className='hire'>
                         <img src={img8} alt='' />
-                        <h4>Hire Globally, Confidently—with EnesHR® Employer of Record</h4>
+                        <h4>Hire Globally, Confidently—with enesHR® Employer of Record</h4>
                         <p>Expand your talent pool and pay a diverse, global workforce with accuracy, compliance, and peace-of-mind.</p>
                     </div>
                     <div className='hire'>
@@ -314,7 +322,7 @@ function Home() {
                     <div className='hire'>
                         <img src={img0} alt='' />
                         <h4>Build a Smarter Compensation Strategy</h4>
-                        <p>Simplify your entire pay process—from benchmarking to planning and approvals—with EnesHR® Compensation Management.</p>
+                        <p>Simplify your entire pay process—from benchmarking to planning and approvals—with enesHR® Compensation Management.</p>
                     </div>
                 </div>
                 <br />
@@ -390,7 +398,7 @@ function Home() {
                         <div className="content-flex">
                             <div className="text-side">
                                 <p>
-                                    Find, hire, and onboard the best talent quickly. With the powerful EnesHR applicant tracking system and proactive onboarding tasks, you can create a compelling candidate experience and better first days for new hires.
+                                    Find, hire, and onboard the best talent quickly. With the powerful enesHR applicant tracking system and proactive onboarding tasks, you can create a compelling candidate experience and better first days for new hires.
                                 </p>
                                 <br />
                                 <div>
@@ -520,7 +528,7 @@ function Home() {
             <br />
             <div className='home-page'>
                 <div className='hr-cost'>
-                    <h1>EnesHR customers save hundreds of hours and reduce HR costs by 40%</h1>
+                    <h1>enesHR customers save hundreds of hours and reduce HR costs by 40%</h1>
                 </div>
 
                 <br />
@@ -575,7 +583,7 @@ function Home() {
                 <div className='customers-cards'>
                     <div className='card-one'>
                         <div className='c-text'>
-                            <h4>I’d absolutely recommend EnesHR Time Tracking. It’s a great system that does exactly what you need it to do.</h4>
+                            <h4>I’d absolutely recommend enesHR Time Tracking. It’s a great system that does exactly what you need it to do.</h4>
                         </div>
                         <div className='flex-card'>
                             <div className='cards-image'>
@@ -590,7 +598,7 @@ function Home() {
                     </div>
                     <div className='card-two'>
                         <div className='c-text'>
-                            <h4>EnesHR and I are a package deal. If you hire me, I’m making the case for EnesHR.</h4>
+                            <h4>enesHR and I are a package deal. If you hire me, I’m making the case for enesHR.</h4>
                         </div>
                         <div className='flex-card'>
                             <div className='cards-image'>
@@ -605,7 +613,7 @@ function Home() {
                     </div>
                     <div className='card-three'>
                         <div className='c-text'>
-                            <h4>The way EnesHR has designed the product has been very thoughtful — they’ve really, genuinely understood the needs of the employee as well as the needs of HR. It’s been great. We’re so lucky that we found EnesHR. I still thank my lucky stars that we didn’t land with anyone but them.</h4>
+                            <h4>The way enesHR has designed the product has been very thoughtful — they’ve really, genuinely understood the needs of the employee as well as the needs of HR. It’s been great. We’re so lucky that we found EnesHR. I still thank my lucky stars that we didn’t land with anyone but them.</h4>
                         </div>
                         <div className='flex-card'>
                             <div className='cards-image'>
@@ -620,7 +628,7 @@ function Home() {
                     </div>
                     <div className='card-four'>
                         <div className='c-text'>
-                            <h4>You don’t even worry about it. EnesHR has support that’s there to make it so you succeed.</h4>
+                            <h4>You don’t even worry about it. enesHR has support that’s there to make it so you succeed.</h4>
                         </div>
                         <div className='flex-card'>
                             <div className='cards-image'>
@@ -635,7 +643,7 @@ function Home() {
                     </div>
                     <div className='card-five'>
                         <div className='c-text'>
-                            <h4>EnesHR saves us from having an entire team of HR people. It saves time in training employees or supervisors and managers — half-hour increments here and there versus days compiling information.</h4>
+                            <h4>enesHR saves us from having an entire team of HR people. It saves time in training employees or supervisors and managers — half-hour increments here and there versus days compiling information.</h4>
                         </div>
                         <div className='flex-card'>
                             <div className='cards-image'>
@@ -650,7 +658,7 @@ function Home() {
                     </div>
                     <div className='card-six'>
                         <div className='c-text'>
-                            <h4>We have been using Performance Management for 3.5 years, and we have seen an average of 95.5% compliance with employees, and 95.25% compliance with managers…It is so easy to complete performance assessments with EnesHR, and you get so much data right at your fingertips.</h4>
+                            <h4>We have been using Performance Management for 3.5 years, and we have seen an average of 95.5% compliance with employees, and 95.25% compliance with managers…It is so easy to complete performance assessments with enesHR, and you get so much data right at your fingertips.</h4>
                         </div>
                         <div className='flex-card'>
                             <div className='cards-image'>
@@ -665,7 +673,7 @@ function Home() {
                     </div>
                     <div className='card-sv'>
                         <div className='c-text'>
-                            <h4>EnesHR is easy to use, and the support is excellent. And that's what HR professionals want.</h4>
+                            <h4>enesHR is easy to use, and the support is excellent. And that's what HR professionals want.</h4>
                         </div>
                         <div className='flex-card'>
                             <div className='cards-image'>
@@ -680,7 +688,7 @@ function Home() {
                     </div>
                     <div className='card-eight'>
                         <div className='c-text'>
-                            <h4>I love EnesHR Time Tracking because it saves time for me to be able to do other things. It allows me to be more accurate on our time sheets, and since time sheets for hourly employees are done automatically, we don’t have to go back and correct anything.</h4>
+                            <h4>I love enesHR Time Tracking because it saves time for me to be able to do other things. It allows me to be more accurate on our time sheets, and since time sheets for hourly employees are done automatically, we don’t have to go back and correct anything.</h4>
                         </div>
                         <div className='flex-card'>
                             <div className='cards-image'>
@@ -701,7 +709,7 @@ function Home() {
                         <div className='mobile_green'>
                             <div className='mobile-white'>
                                 <div className='mwt'>
-                                    <h4>The way EnesHR has designed the product has been very thoughtful - they've really, genuinely understood the needs of the employee of HR. It's been great. We're so lucky that we found EnesHR. I still thank my lucky stars that we didn't land with anyone but them.</h4><br />
+                                    <h4>The way enesHR has designed the product has been very thoughtful - they've really, genuinely understood the needs of the employee of HR. It's been great. We're so lucky that we found enesHR. I still thank my lucky stars that we didn't land with anyone but them.</h4><br />
 
                                     <div className='flex-card'>
                                         <div className='mwt-image'>
@@ -727,7 +735,7 @@ function Home() {
                         <div className='mobile_green-three'>
                             <div className='mobile-white-three'>
                                 <div className='mwt'>
-                                    <h4>EnesHR is easy to use, and the support is excellent. And that's what HR professionals want.</h4><br />
+                                    <h4>enesHR is easy to use, and the support is excellent. And that's what HR professionals want.</h4><br />
 
                                     <div className='flex-card'>
                                         <div className='mwt-image'>
@@ -750,7 +758,7 @@ function Home() {
                             <div className='mobile-white-fr'>
                                 <div className='mwt'>
 
-                                    <h4>EnesHR was easy to learn and start using for everyone at the company and made it easy to be in compliance with an evolving workforce.</h4>
+                                    <h4>enesHR was easy to learn and start using for everyone at the company and made it easy to be in compliance with an evolving workforce.</h4>
 
                                     <div className='flex-card'>
                                         <div className='mwt-image'>
@@ -788,7 +796,7 @@ function Home() {
                         <div className='mobile_green'>
                             <div className='mobile-white'>
                                 <div className='mwt'>
-                                    <h4>EnesHR changed the way HR delivers value to the business. We can now collaborate with other departments and be secure in metrics like headcount, pay rate, and PTO accrual.</h4><br /><br />
+                                    <h4>enesHR changed the way HR delivers value to the business. We can now collaborate with other departments and be secure in metrics like headcount, pay rate, and PTO accrual.</h4><br /><br />
 
                                     <div className='flex-card'>
                                         <div className='mwt-image'>
@@ -879,7 +887,7 @@ function Home() {
 
             <div className='home-page'>
                 <div className='rush'>
-                    <h1>Short on time? Get started with EnesHR today!</h1>
+                    <h1>Short on time? Get started with enesHR today!</h1>
                 </div>
                 <br />
                 <br />

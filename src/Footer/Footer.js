@@ -25,6 +25,7 @@ function Footer() {
                             <p>Employee Experience</p>
                             <p>Benefits</p>
                             <p>Schedules</p>
+                            <p>Analytics</p>
 
                         </div>
                         <div className='role-three'>
@@ -63,7 +64,7 @@ function Footer() {
                         </div>
 
                         <div className='footer-text'>
-                            <p>© 2025 Enes HR. All Rights Reserved. EnesHR® is a registered trademark of Enes HR</p>
+                            <p>© 2026 enesHR. All Rights Reserved. enesHR® is a registered trademark of enesHR.</p>
                         </div>
                     </div>
                     <div className='sell'>
@@ -169,7 +170,7 @@ function Footer() {
                         </div>
 
                         <div className='footer-text'>
-                            <p>© 2025 Enes HR. All Rights Reserved. EnesHR® is a registered trademark of Enes HR</p>
+                            <p>© 2026 enesHR. All Rights Reserved. enesHR® is a registered trademark of enesHR.</p>
                         </div>
                     </div>
                 </div>

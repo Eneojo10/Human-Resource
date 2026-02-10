@@ -6,6 +6,7 @@ import Navigation from './Navigation/Navigation';
 import Time from './Others/Time';
 import Pricing from './Pricing/Pricing';
 import Footer from './Footer/Footer';
+import Caculator from './Others/Caculator';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="time" element={<Time />} />
           <Route path="pricing" element={<Pricing  />} />
           <Route path="footer" element={<Footer  />} />
+          <Route path="roi-caculator" element={<Caculator  />} />
         </Routes>
       </Router>
     </div>

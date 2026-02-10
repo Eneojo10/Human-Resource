@@ -33,6 +33,7 @@ function Navigation() {
     return (
         <div>
             <div className="navigation">
+                
                 <div className="nav-details">
                     <div className="nav-leaf">
                         <div className="le-af">
@@ -106,7 +107,7 @@ function Navigation() {
                                         onClick={() => setActiveMenu("why")}
                                     >
                                         <div className="mb-iconflex">
-                                            <h4>Why EnesHR?</h4>
+                                            <h4>Why enesHR</h4>
                                             <MdKeyboardArrowRight />
                                         </div>
                                     </div>
@@ -285,7 +286,7 @@ function Navigation() {
 
                                     </div>
 
-                                    <h3>EnesHR Services</h3>
+                                    <h3>enesHR Services</h3>
                                     <br />
                                     <div className="d-line_"></div>
                                     <br />
@@ -355,10 +356,10 @@ function Navigation() {
                             <div className='dropdown-menu-'>
                                 <div className='pd'>
                                     <div>
-                                        <a href='/time-attendance'><h3>Our Platform</h3></a>
-                                        <a href='/payroll'>Platform Overview</a>
-                                        <a href='/benefits'>Video Tour</a>
-                                        <a href='/benefits'>Integration Marketplace</a>
+                                        <a href='#'><h3>Our Platform</h3></a>
+                                        <a href='#'>Platform Overview</a>
+                                        <a href='#'>Video Tour</a>
+                                        <a href='#'>Integration Marketplace</a>
                                     </div>
 
                                     <div className='platform--border'>
@@ -452,12 +453,32 @@ function Navigation() {
                         <div className='dropdown'>
                             <h4>Solutions</h4>
                             <div className='dropdown-menu'>
-                                <a href='/small-business'>EnesHR Services</a>
+                                <a href='/small-business'>enesHR Services</a>
 
                             </div>
                         </div>
 
+                        <div className='dropdown'>
+                            <h4>Why enesHR</h4>
+                            <div className='dropdown-menu'>
+                                <a href='/company'>We Set You Free</a>
+                                <a href='/team'>Award-Winning Service & Support</a>
+                                <a href='/careers'>Case Studies</a>
+                               
+                            </div>
+                        </div>
+
                         {/* About dropdown */}
+                        <div className='dropdown'>
+                            <h4>Resources</h4>
+                            <div className='dropdown-menu'>
+                                <a href='/company'>HR Toolkit</a>
+                                <a href='/team'>Blog</a>
+                                <a href='/careers'>HR Unplugged Podcast</a>
+                                <a href='/careers'>Events and Webinars</a>
+                                
+                            </div>
+                        </div>
                         <div className='dropdown'>
                             <h4>About</h4>
                             <div className='dropdown-menu'>
