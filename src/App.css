@@ -322,9 +322,60 @@ textarea {
   width: 10%;
   display: none;
 }
+.sol-colour-one{
+  padding: 30px;
+  padding-top: 80px;
+}
+.sol-colour{
+  background-color: #fafaf8;
+  height: 400px;
+  width: 50%;
+  border-radius: 16px;
+}
+.sol--colour{
+  width: 90%;
+  margin: auto;
+}
+
+.sol-border{
+  border: 1px solid #ccc;
+  height: 300px;
+  border-radius: 16px;
+  width: 100%;
+  
+}
+
+.sol-border-flex{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  margin: auto;
+  gap: 30px;
+}
+
+.how-we-work{
+  text-align: center;
+}
+.how-we-work p{
+  color: #599d15;
+  font-weight: 700;
+}
+
+.sl-img{
+  width: 45%;
+}
+
+.sol--colour{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sl-img img{
+  width: 100%;
+}
 
 .tackle{
-  width: 55%;
+  width: 50%;
   margin: auto;
 }
 .le-af {
