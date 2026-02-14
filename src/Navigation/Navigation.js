@@ -7,7 +7,7 @@ import { MdOutlineSpatialTracking, MdPersonAddAlt } from "react-icons/md";
 import { CgPerformance } from "react-icons/cg";
 import { ImStarEmpty } from "react-icons/im";
 import { GoGift } from "react-icons/go";
-import logo from "../Images/logo-removebg-preview.png";
+import logo from '../Images/logo-removebg-preview.png'
 import { FiMenu, FiX } from "react-icons/fi";
 import {
     MdKeyboardArrowRight,
@@ -20,6 +20,7 @@ import onboard from '../Images/onboard.webp'
 import performance from '../Images/performance.webp'
 import employee from '../Images/employee.webp'
 import { CiBellOn } from "react-icons/ci";
+
 
 function Navigation() {
     const [isOpen, setIsOpen] = useState(false);
@@ -468,15 +469,22 @@ function Navigation() {
                             </div>
                         </div>
 
-                        {/* About dropdown */}
+                        {/* Resources dropdown */}
                         <div className='dropdown'>
                             <h4>Resources</h4>
                             <div className='dropdown-menu'>
-                                <a href='/company'>HR Toolkit</a>
+                                <div className='dropdown-nested'>
+                                    <a href='#'>HR Toolkit &gt;</a>
+                                    <div className='dropdown-submenu'>
+                                        <a href='#'>HR Templates</a>
+                                        <a href='#'>HR Guides</a>
+                                        <a href='/roi-calculator'>ROI Calculator</a>
+                                        <a href='#'>HR Webinars</a>
+                                    </div>
+                                </div>
                                 <a href='/team'>Blog</a>
                                 <a href='/careers'>HR Unplugged Podcast</a>
                                 <a href='/careers'>Events and Webinars</a>
-                                
                             </div>
                         </div>
                         <div className='dropdown'>
@@ -502,7 +510,7 @@ function Navigation() {
                             <h4>+2347062304776</h4>
                         </div>
 
-                        <a href="https://hris-indol.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://app.eneshr.com/login/" target="_blank" rel="noopener noreferrer">
                             <div className="button">
                                 <button className="login-btn">Log In</button>
                             </div>

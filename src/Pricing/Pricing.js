@@ -42,6 +42,9 @@ function Pricing() {
         <div>
             <Navigation />
             <div className='home-page-price'>
+                <br/>
+                <br/>
+                <br/>
                 <div className='price-plan'>
                     <div className='plans'>
                         <div className='gt-plans'>
@@ -157,6 +160,10 @@ function Pricing() {
                     <p>Volume and non-profit discounts are available</p>
 
                 </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
 
                 <div className='core'>
                     <div className='co-re'>

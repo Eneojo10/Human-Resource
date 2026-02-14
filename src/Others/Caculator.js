@@ -192,7 +192,25 @@ function Caculator() {
 
                     <div className='new-hires-comment'>
 
-                        <p>"...I would say ultimately enesHR probably saved us another hire because that was where i was going to. I was thinking I need to hire another person to just track all the paperwork that's going along with this. So when we brought on enesHR it was like bringing on a new hire."</p>
+                        <p>"...Honestly, enesHR ended up saving us from needing to hire another staff member. At the time, I was already considering bringing someone in just to manage and keep track of all the paperwork involved. Implementing enesHR felt almost like adding a new team member, because it took over that entire responsibility."</p>
+                        <div className='staff-name'>
+                            <div>
+                                <h4>Miranda Okpara</h4>
+                            </div>
+                            <div>
+                                <h4>|</h4>
+                            </div>
+                            <div>
+                                <h4>Team Lead</h4>
+                            </div>
+                            <div>
+                                <h4>|</h4>
+                            </div>
+                            <div>
+                                <h4>United Bank for Africa</h4>
+                            </div>
+
+                        </div>
                     </div>
 
 
@@ -222,6 +240,7 @@ function Caculator() {
 
 
                 </div>
+                <br /><br />
                 <div className='cal-admin-section'>
                     <div className='admin--one'>
                         <img src={user} />
@@ -229,7 +248,25 @@ function Caculator() {
 
                     <div className='new-hires-comment'>
 
-                        <p>"...I would say ultimately enesHR probably saved us another hire because that was where i was going to. I was thinking I need to hire another person to just track all the paperwork that's going along with this. So when we brought on enesHR it was like bringing on a new hire."</p>
+                        <p>"...Looking back, enesHR essentially eliminated the need for an additional hire. I had been planning to recruit someone solely to handle the growing volume of paperwork and administrative tracking. Bringing in enesHR solved that problem for us — it felt like we gained the support of another employee without actually expanding the team."</p>
+                        <div className='staff-name'>
+                            <div>
+                                <h4>Ottene Onoja</h4>
+                            </div>
+                            <div>
+                                <h4>|</h4>
+                            </div>
+                            <div>
+                                <h4>Managing Director</h4>
+                            </div>
+                            <div>
+                                <h4>|</h4>
+                            </div>
+                            <div>
+                                <h4>6sixdot Coporation</h4>
+                            </div>
+
+                        </div>
                     </div>
 
 
@@ -257,8 +294,30 @@ function Caculator() {
 
                     <div className='new-hires-comment'>
 
-                        <p>"...I would say ultimately enesHR probably saved us another hire because that was where i was going to. I was thinking I need to hire another person to just track all the paperwork that's going along with this. So when we brought on enesHR it was like bringing on a new hire."</p>
+                        <p>"...EnesHR made such a difference that we no longer needed to hire someone to manage administrative paperwork. Before adopting it, I was already thinking about bringing in a dedicated person just to keep everything organized and tracked. Once we started using enesHR, it filled that gap — almost like adding another team member to handle those responsibilities
+                            ."</p>
+
+                        <div className='staff-name'>
+                            <div>
+                                <h4>Jeremiah Amedu</h4>
+                            </div>
+                            <div>
+                                <h4>|</h4>
+                            </div>
+                            <div>
+                                <h4>Managing Director</h4>
+                            </div>
+                            <div>
+                                <h4>|</h4>
+                            </div>
+                            <div>
+                                <h4>Jomiah Creations</h4>
+                            </div>
+
+                        </div>
                     </div>
+
+
 
 
                 </div>
@@ -284,6 +343,13 @@ function Caculator() {
                         <img src={cartoon} />
                     </div>
                 </div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
                 <br />
                 <br />
                 <div className='golden'>
@@ -334,10 +400,10 @@ function Caculator() {
                     <div className='roi-image'>
                         <img src={roi} />
                     </div>
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     <div>
-                        <p>Keep in mind that HR software comes with tangible and intangible rewards. As you're linking dollar amounts and time saved to justify the added expense to key decision-makers, consider other<br/> benefits like:</p><br/>
+                        <p>Keep in mind that HR software comes with tangible and intangible rewards. As you're linking dollar amounts and time saved to justify the added expense to key decision-makers, consider other<br /> benefits like:</p><br />
                         <ul className='custom-list'>
                             <li>How more opportunity to design and execute company programs boosts employee retention, engagement, and job satisfaction</li>
                             <li>How minimizing human error and risk protects your employer brand</li>
@@ -348,9 +414,9 @@ function Caculator() {
                     </div>
 
                 </div>
-                <br/>
-                <br/>
-                <br/>
+                <br />
+                <br />
+                <br />
                 <div className='calc-green'>
                     <div className='hr-easier'>
                         <h2>See enesHR in Action</h2>
@@ -363,13 +429,13 @@ function Caculator() {
                     </div> */}
 
                 </div>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
 
 
             </div>

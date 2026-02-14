@@ -4,6 +4,25 @@
   list-style: none;
   box-sizing: border-box;
 }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
 .navigation {
   background: white;
   width: 100%;
@@ -28,6 +47,8 @@
 
 .wf img {
   width: 100%;
+  height: auto;
+  display: block;
 }
 .caculator-page{
   width: 80%;
@@ -100,6 +121,11 @@
   border: none;
   width: 100%;
   font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.roi-btn:hover {
+  background-color: #1d5c0f;
 }
 .roi-button{
   width: 90%;
@@ -149,9 +175,11 @@
   margin: auto;
 }
 .calc-green{
-  background-color: #f6ffe3;
+  background-image: url('./Images/bg\ bg.png');
   width: 100%;
   height: 300px;
+  background-size: cover;
+  background-position: center;
 }
 .admin-one{
   width: 35%;
@@ -192,6 +220,12 @@
   margin: auto;
   gap: 40px;
 }
+.cal-admin-section p {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
 .free-price{
   border: none;
   background: transparent;
@@ -202,6 +236,12 @@
   border-radius: 18px;
   font-size: 16px;
   font-weight: 600;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.free-price:hover {
+  background-color: #1d5c0f;
 }
 .free--price{
   width: 20%;
@@ -210,7 +250,7 @@
 }
 .nav-leaf {
   display: flex;
-  width: 1%;
+  width: 8%;
 }
 .dropdownn {
   color: #1d9336;
@@ -283,10 +323,12 @@
   display: none;
 }
 .le-af {
-  width: 100%;
+  width: 90%;
 }
 .le-af img {
-  width: 25px;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 10px;
 }
 .rightsidenav {
   display: flex;
@@ -321,6 +363,8 @@
   background-image: url('./Images/bg\ bg.png');
   width: 100%;
   height: auto;
+  background-size: cover;
+  background-position: center;
 }
 .home-white-bg {
   border: 1px solid #ccc;
@@ -356,15 +400,20 @@
 }
 .onboard-image {
   width: 8%;
+  min-width: 80px;
 }
 .onboard-image img {
   width: 100%;
+  height: auto;
+  display: block;
 }
 .all-flex {
   width: 60%;
   display: flex;
   margin: auto;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .demo-color {
   background-color: #ce4755;
@@ -382,6 +431,8 @@
   background-image: url('./Images/bg\ bg.png');
   width: 100%;
   height: auto;
+  background-size: cover;
+  background-position: center;
 }
 .re-mark {
   width: 60%;
@@ -528,6 +579,8 @@
 }
 .image-side img {
   width: 100%;
+  height: auto;
+  display: block;
 }
 .content-flex {
   display: flex;
@@ -658,6 +711,8 @@
 }
 .cards-image img {
   width: 100%;
+  height: auto;
+  display: block;
   border-radius: 24px;
 }
 .flex-card {
@@ -680,6 +735,7 @@
   border-radius: 22px;
   font-size: 16px;
   cursor: pointer;
+  white-space: nowrap;
 }
 .login-btnn {
   border: none;
@@ -691,6 +747,7 @@
   cursor: pointer;
   background-color: #2e7918;
   color: white;
+  white-space: nowrap;
 }
 .numbers {
   margin-top: 7px;
@@ -737,6 +794,27 @@
   width: 100%;
   height: auto;
 }
+
+.brown {
+  position: relative;
+  background-color: #58524f;
+  width: 100%;
+  height: auto; /* give it actual height */
+  overflow: hidden;
+}
+
+.brown::before {
+  content: "";
+  position: absolute;
+  top: -120px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: white; /* match page background */
+  border-bottom-left-radius: 50% 100%;
+  border-bottom-right-radius: 50% 100%;
+}
+
 
 
 .footer-flex {
@@ -841,10 +919,12 @@
 .p-inputs {
   display: flex;
   gap: 15px;
-  /* margin-bottom: 20px; */
+  flex-wrap: wrap;
 }
 .p_input {
-  width: 50%;
+  width: 100%;
+  flex: 1;
+  min-width: 200px;
 }
 
 .p_input input {
@@ -876,7 +956,7 @@
 .p_input {
   position: relative;
   display: inline-block;
-  width: 250px;
+  width: 100%;
   margin-bottom: 1.5rem;
 }
 
@@ -886,7 +966,7 @@
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 16px;
-  appearance: none; /* removes default arrow */
+  appearance: none;
   background: transparent;
 }
 .country_input {
@@ -958,6 +1038,12 @@
   width: 100%;
   font-size: 20px;
   border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+  background-color: #1d5c0f;
 }
 
 .comprehensive {
@@ -1205,7 +1291,9 @@
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   border-radius: 5px;
   z-index: 1000;
-  height: 200px;
+  height: auto;
+  max-height: 400px;
+  overflow-y: visible;
 }
 .dropdown-menu- {
   display: none;
@@ -1217,7 +1305,9 @@
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   border-radius: 5px;
   z-index: 1000;
-  height: 350px;
+  height: auto;
+  max-height: 500px;
+  overflow-y: auto;
 }
 
 .dropdown-menu a {
@@ -1252,6 +1342,39 @@
 .dropdown h4 {
   font-weight: 700;
   color: #58524f;
+}
+
+/* Nested dropdown styles */
+.dropdown-nested {
+  position: relative;
+}
+
+.dropdown-nested > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nested-arrow {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: auto;
+}
+
+.dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background: white;
+  min-width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  border-radius: 5px;
+  z-index: 1001;
+}
+
+.dropdown-nested:hover .dropdown-submenu {
+  display: block;
 }
 .platform {
   display: flex;
@@ -1315,6 +1438,16 @@
   display: none;
 }
 
+.staff-name{
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+.staff-name h4{
+  font-weight: 400;
+}
+
 .amounts-vertical {
   display: none;
   display: flex;
@@ -1357,6 +1490,193 @@
   font-weight: 400;
 }
 
+/* Chatbox Styles */
+.chatbox-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #2e7918;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.chatbox-toggle:hover {
+  transform: scale(1.1);
+}
+
+.chatbox-container {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 350px;
+  height: 500px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  display: none;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.chatbox-container.open {
+  display: flex;
+}
+
+.chatbox-header {
+  background-color: #2e7918;
+  color: white;
+  padding: 15px;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbox-header h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.close-chat {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.chatbox-messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  background: #f9f9f9;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.message.user {
+  background-color: #2e7918;
+  color: white;
+  margin-left: auto;
+  text-align: right;
+}
+
+.message.bot {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.chatbox-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background: white;
+  border-radius: 0 0 12px 12px;
+}
+
+.chatbox-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  outline: none;
+  font-size: 14px;
+}
+
+.send-icon {
+  margin-left: 10px;
+  color: #2e7918;
+  cursor: pointer;
+  font-size: 24px;
+  align-self: center;
+}
+
+.send-icon:hover {
+  color: #1d5c0f;
+}
+
+.chatbox-options {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #f9f9f9;
+}
+
+.welcome-message {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.welcome-message h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.welcome-message p {
+  color: #666;
+  font-size: 14px;
+}
+
+.option-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option-btn {
+  background: white;
+  border: 2px solid #e0e0e0;
+  padding: 15px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  color: #333;
+  font-weight: 500;
+}
+
+.option-btn:hover {
+  border-color: #2e7918;
+  background: #f0f8ed;
+  transform: translateY(-2px);
+}
+
+.option-btn svg {
+  font-size: 18px;
+  color: #2e7918;
+}
+
+@media (max-width: 500px) {
+  .chatbox-container {
+    width: 90%;
+    right: 5%;
+    height: 450px;
+  }
+  
+  .chatbox-toggle {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 /* .p_input .error {
   display: block;
   margin-top: 5px;
@@ -1364,13 +1684,247 @@
   color: #c62828;
 } */
 
+/* Tablet Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .nav-details {
+    width: 98%;
+  }
+  .leftnav-side {
+    width: 55%;
+  }
+  .rightsidenav {
+    width: 45%;
+  }
+  .dropdown-menu- {
+    min-width: 700px;
+  }
+  .platform--border {
+    width: 75%;
+  }
+  .rated-hr {
+    width: 70%;
+    font-size: 24px;
+  }
+  .all-flex {
+    width: 75%;
+  }
+  .re-mark {
+    width: 75%;
+  }
+  .slide-section {
+    width: 95%;
+  }
+  .all-announcement {
+    width: 95%;
+    margin: auto;
+  }
+  .content-flex {
+    gap: 20px;
+  }
+  .customers-cards {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+  }
+  .footer-flex {
+    width: 95%;
+  }
+  .price-plan {
+    padding: 40px;
+  }
+  .core {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .addflex {
+    width: 80%;
+  }
+  .calculator {
+    width: 60%;
+  }
+  .caculator-page {
+    width: 90%;
+  }
+  .cal-admin-section {
+    width: 70%;
+  }
+  .depend-org {
+    width: 75%;
+  }
+  .how2-calculate-roi {
+    width: 75%;
+  }
+}
+
+/* Small Tablet / Large Mobile */
+@media (max-width: 768px) and (min-width: 501px) {
+  .leftnav-side {
+    width: 60%;
+  }
+  .rightsidenav {
+    display: none;
+  }
+  .nav--leaf {
+    display: flex;
+  }
+  .hamburger {
+    display: block;
+  }
+  .rated-hr {
+    width: 85%;
+    font-size: 32px;
+  }
+  .all-flex {
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+  }
+  .demo-color {
+    width: 30%;
+  }
+  .re-mark {
+    width: 85%;
+  }
+  .slide-section {
+    flex-direction: column;
+  }
+  .allstars {
+    width: 30%;
+    margin: auto;
+  }
+  .sliders {
+    width: 100%;
+  }
+  .all-announcement {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .hire {
+    width: 100%;
+  }
+  .content-flex {
+    flex-direction: column;
+  }
+  .text-side,
+  .image-side {
+    width: 100%;
+  }
+  .hr-cost {
+    width: 85%;
+  }
+  .amounts {
+    display: none;
+  }
+  .amounts-vertical {
+    display: block;
+    width: 90%;
+  }
+  .aone {
+    width: 100%;
+  }
+  .customers-cards {
+    grid-template-columns: repeat(2, 1fr);
+    width: 95%;
+  }
+  .leaf-flex {
+    width: 70%;
+  }
+  .brown {
+    display: none;
+  }
+  .green-footer {
+    display: block;
+    background-color: #00673b;
+    color: white;
+  }
+  .footer-flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .price-plan {
+    display: block;
+    padding: 30px;
+  }
+  .plans,
+  .pricing-form {
+    width: 100%;
+  }
+  .pricing-form {
+    margin-top: 30px;
+  }
+  .core {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .addflex {
+    width: 90%;
+    flex-direction: column;
+  }
+  .add-one {
+    margin-bottom: 20px;
+  }
+  .calculator {
+    width: 80%;
+    flex-direction: column;
+  }
+  .quote,
+  .qu-ote {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .caculator-page {
+    width: 90%;
+  }
+  .caculator-tab {
+    width: 85%;
+  }
+  .roi-table {
+    width: 85%;
+  }
+  .cac-flex {
+    flex-direction: column;
+  }
+  .input-holder {
+    width: 90%;
+  }
+  .estimated-annual-savings {
+    width: 90%;
+  }
+  .cal-admin-section {
+    width: 85%;
+    flex-direction: column;
+  }
+  .admin-one,
+  .admin--one,
+  .new-hires,
+  .new-hires-comment {
+    width: 100%;
+  }
+  .depend-org {
+    width: 85%;
+    flex-direction: column;
+  }
+  .den-org,
+  .cartoon {
+    width: 100%;
+  }
+  .cartoon {
+    margin-top: 20px;
+  }
+  .how2-calculate-roi {
+    width: 85%;
+  }
+}
+
+/* Mobile Styles */
 @media (max-width: 500px) {
   .all-announcement {
     display: block;
     /* width: 100%; */
   }
   .onboard-image {
-    width: 70%;
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
   }
 
   .onboard-image img {
@@ -1384,7 +1938,8 @@
   }
 
   .iconflex h2{
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 1.3;
   }
 
   .hire {
@@ -1432,9 +1987,11 @@
   }
   .leaf-flex h1{
     font-size: 24px;
+    line-height: 1.3;
   }
   .customers h1{
-    font-size: 26px;
+    font-size: 28px;
+    line-height: 1.3;
   }
   .leaf {
     display: none;
@@ -1494,18 +2051,22 @@
   }
   .all-flex {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    width: 70%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 90%;
     margin: auto;
-    
   }
   
   .demo-color {
-    width: 85%;
+    width: 60%;
     background-color: green;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 15px;
+    height: auto;
+    padding: 15px 10px;
+  }
+  .demo-color h4 {
+    padding-top: 0;
   }
   .vertical {
     border-bottom: 1px solid #ccc;
@@ -1524,19 +2085,36 @@
     text-align: center;
     color: #00673b;
   }
+  .rated--hr h1 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
   .homepage {
     display: none;
   }
   .home-white-bg {
-    height: 230px;
+    height: auto;
+    min-height: 60px;
+    padding: 20px;
   }
   .home-green-bg {
-    width: 80%;
-    margin-top: -155px;
-    margin-bottom: 100px;
+    width: 90%;
+    height: auto;
+    min-height: 90px;
+    padding: 10px;
+    margin-top: -75px;
+  }
+  .enes-commercial {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .enes-picture {
+    width: 30%;
+    min-width: 80px;
   }
   .hr-p p {
-    font-size: 18px;
+    font-size: 16px;
   }
   .re-mark {
     display: none;
@@ -1548,8 +2126,9 @@
     margin-top: 50px;
   }
   .re-marks h1 {
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
+    line-height: 1.3;
   }
   .nav-leaf,
   .dropdown,
@@ -1567,12 +2146,13 @@
     display: block;
   }
 
-  .mobile-sidebar {
+.mobile-sidebar {
     position: fixed;
     top: 0;
     left: 0;
-    height: auto;
+    height: 100vh;
     width: 280px;
+    max-width: 85vw;
     background-color: #fff;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -1581,6 +2161,7 @@
     z-index: 1000;
     transition: transform 0.3s ease-in-out;
     transform: translateX(100%);
+    overflow-y: auto;
   }
 
   .mobile-sidebar.open {
@@ -1661,6 +2242,8 @@
   }
   .p_input {
     width: 100%;
+    min-width: auto;
+    flex: none;
   }
   .p_input input {
     width: 100%;
@@ -1676,10 +2259,12 @@
     font-weight: 400;
   }
   .core-inside {
-    height: 557px;
+    height: auto;
+    min-height: 557px;
   }
   .core-red {
-    height: 600px;
+    height: auto;
+    min-height: 600px;
     margin-top: 20px;
   }
   .addflex {
@@ -1722,6 +2307,8 @@
   }
   .slide-one {
     margin-bottom: 20px;
+    height: auto;
+    min-height: 250px;
   }
 
   .cards-image img {
@@ -1742,6 +2329,7 @@
 
   .card-one {
     height: auto;
+    min-height: 200px;
   }
 
   .customers-cards {
@@ -1769,28 +2357,32 @@
 
   .mobile_green {
     background-color: green;
-    height: 402px;
+    height: auto;
+    min-height: 402px;
     width: 100%;
     border-radius: 16px;
     margin-bottom: 18px;
   }
   .mobile_green-two {
     background-color: green;
-    height: 260px;
+    height: auto;
+    min-height: 260px;
     width: 100%;
     border-radius: 16px;
     margin-bottom: 18px;
   }
   .mobile_green-three {
     background-color: green;
-    height: 305px;
+    height: auto;
+    min-height: 305px;
     width: 100%;
     border-radius: 16px;
     margin-bottom: 18px;
   }
   .mobile_green-fr {
     background-color: green;
-    height: 270px;
+    height: auto;
+    min-height: 270px;
     width: 100%;
     border-radius: 16px;
     margin-bottom: 18px;
@@ -1798,28 +2390,32 @@
 
   .mobile-white {
     background-color: white;
-    height: 393px;
+    height: auto;
+    min-height: 393px;
     width: 100%;
     border: 2px solid #ccc;
     border-radius: 16px;
   }
   .mobile-white-two {
     background-color: white;
-    height: 250px;
+    height: auto;
+    min-height: 250px;
     width: 100%;
     border: 2px solid #ccc;
     border-radius: 16px;
   }
   .mobile-white-three {
     background-color: white;
-    height: 295px;
+    height: auto;
+    min-height: 295px;
     width: 100%;
     border: 2px solid #ccc;
     border-radius: 16px;
   }
   .mobile-white-fr {
     background-color: white;
-    height: 260px;
+    height: auto;
+    min-height: 260px;
     width: 100%;
     border: 2px solid #ccc;
     border-radius: 16px;
@@ -1897,8 +2493,72 @@
   .submenu {
     line-height: 35px;
   }
+
+  .caculator-tab {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+  }
+  .roi-table {
+    width: 95%;
+  }
+  .cac-flex {
+    flex-direction: column;
+    width: 100%;
+  }
+  .input-holder {
+    width: 95%;
+    margin: auto;
+  }
+  .estimated-annual-savings {
+    width: 95%;
+    margin: auto;
+  }
+  .cal-admin-section {
+    width: 95%;
+    flex-direction: column;
+  }
+  .admin-one,
+  .admin--one {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .new-hires,
+  .new-hires-comment {
+    width: 100%;
+  }
+  .depend-org {
+    width: 95%;
+    flex-direction: column;
+  }
+  .den-org {
+    width: 100%;
+  }
+  .cartoon {
+    width: 60%;
+    margin: 20px auto;
+  }
+  .average-org {
+    width: 90%;
+  }
+  .how2-calculate-roi {
+    width: 90%;
+  }
+  .hrsoft,
+  .hrpag {
+    width: 90%;
+  }
+  .free--price {
+    width: 80%;
+  }
+  .golden h2 {
+    font-size: 24px;
+  }
   
 }
+
+/* Extra Small Mobile */
 @media (max-width: 360px) {
   .ments {
     width: 90%;
@@ -1916,8 +2576,53 @@
     margin: auto;
   }
   .rush h1 {
-    font-size: 22px;
+    font-size: 28px;
+    line-height: 1.3;
   }
- 
+  .caculator-page {
+    width: 95%;
+  }
+  .sav-money h1 {
+    font-size: 28px;
+  }
+  .cal-admin-section {
+    width: 100%;
+  }
+  .new-hires,
+  .new-hires-comment {
+    font-size: 14px;
+  }
+  .staff-name {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .staff-name h4 {
+    font-size: 13px;
+  }
+  .depend-org {
+    width: 100%;
+  }
+  .cartoon {
+    width: 80%;
+  }
+  .average-org {
+    width: 95%;
+  }
+  .how2-calculate-roi {
+    width: 95%;
+  }
+  .hrsoft {
+    width: 90%;
+  }
+  .hrpag {
+    width: 90%;
+  }
+  .free--price {
+    width: 90%;
+  }
+  .golden h2 {
+    font-size: 20px;
+  }
 }
 

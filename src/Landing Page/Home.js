@@ -22,6 +22,7 @@ import user from '../Images/user2.jpg'
 import logo from '../Images/logo-removebg-preview.png'
 import Footer from '../Footer/Footer'
 import pic from '../Images/WhatsApp_Image_2024-12-31_at_2.49.41_PM-removebg-preview.png'
+import hr1 from '../Images/hr4.jpg'
 
 
 function Home() {
@@ -200,7 +201,7 @@ function Home() {
                                     </div>
                                     <div className='flex-card'>
                                         <div className='cards-image'>
-                                            <img src={user} alt='' />
+                                            <img src={hr1} alt='' />
                                         </div>
                                         <div className='fc'>
                                             <h4>Ameh Sunday</h4>
@@ -210,7 +211,7 @@ function Home() {
                                 </div>
                                 <div className="slide-one">
                                     <div className='c_text'>
-                                        <h3>Onboarding and offboarding is automated. Performance Management reviews are simple. It makes us look great in HR ;)</h3>
+                                        <h3>Onboarding and offboarding is automated. Performance Management reviews are simple. It makes us look great in HR</h3>
                                     </div>
                                     <div className='flex-card'>
                                         <div className='cards-image'>
