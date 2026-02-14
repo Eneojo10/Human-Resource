@@ -119,7 +119,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='rated-hr'>
-                    <h1>#1 Rated HR Software 2026</h1>
+                    <h1>HR Software That Sets the Standard in 2026</h1>
                 </div>
                 <div className='rated--hr'>
                     <h1>#1 Rated HR<br /> Software</h1>
