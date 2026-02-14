@@ -454,7 +454,7 @@ function Navigation() {
                         <div className='dropdown'>
                             <h4>Solutions</h4>
                             <div className='dropdown-menu'>
-                                <a href='/small-business'>enesHR Services</a>
+                                <a href='/solutions'>enesHR Services</a>
 
                             </div>
                         </div>

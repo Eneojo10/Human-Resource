@@ -8,6 +8,7 @@ import Pricing from './Pricing/Pricing';
 import Footer from './Footer/Footer';
 import Caculator from './Others/Caculator';
 import Chatbox from './Components/Chatbox';
+import Solutions from './Solutions/Solutions';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="pricing" element={<Pricing  />} />
           <Route path="footer" element={<Footer  />} />
           <Route path="roi-calculator" element={<Caculator  />} />
+          <Route path="solutions" element={<Solutions  />} />
         </Routes>
         <Chatbox />
       </Router>

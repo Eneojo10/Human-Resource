@@ -322,6 +322,11 @@ textarea {
   width: 10%;
   display: none;
 }
+
+.tackle{
+  width: 55%;
+  margin: auto;
+}
 .le-af {
   width: 90%;
 }
@@ -1217,6 +1222,74 @@ textarea {
   width: 45%;
   margin: auto;
   gap: 25px;
+}
+
+.sol-p{
+  width: 58%;
+  margin: auto;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.sol-icon-one{
+  text-align: center;
+}
+
+.servicebutton{
+  width: 25%;
+  margin: auto;
+}
+
+.e-one{
+  font-weight: 400;
+  font-size: 16px;
+  width: 82%;
+  margin: auto;
+}
+
+.e-one h4{
+  margin-bottom: 10px;
+}
+
+.sol-icons{
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  margin: auto;
+  /* color: #599d15; */
+  font-size: 22px;
+}
+
+.sol-icon-one-{
+  color: #599d15;
+  margin-bottom: 10px;
+}
+
+.enesser{
+  width: 30%;
+  margin:auto;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.hr-discuss{
+  width: 75%;
+  margin: auto;
+}
+.hr-discuss img{
+  width: 100%;
+}
+
+.service-btn{
+  background: transparent;
+  padding: 13px 25px;
+  color: white;
+  border: none;
+  border-radius: 28px;
+  font-size: 19px;
+  font-weight: 700;
+  background-color: #ce4755;
+  cursor: pointer;
 }
 
 .quote {
@@ -2630,3 +2703,171 @@ textarea {
   }
 }
 
+
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.modal-header h2 {
+  margin: 0;
+  color: #2e7918;
+}
+
+.close-modal {
+  font-size: 28px;
+  cursor: pointer;
+  color: #666;
+}
+
+.close-modal:hover {
+  color: #000;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-body p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.modal-body form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal-body input,
+.modal-body textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.modal-body input:focus,
+.modal-body textarea:focus {
+  border-color: #2e7918;
+}
+
+.submit-btn {
+  background-color: #2e7918;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #1d5c0f;
+}
+
+.sol-p {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+}
+
+.servicebutton {
+  text-align: center;
+}
+
+.service-btn {
+  background-color: #2e7918;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.service-btn:hover {
+  background-color: #1d5c0f;
+}
+
+.hr-discuss {
+  width: 60%;
+  margin: auto;
+}
+
+.enesser {
+  text-align: center;
+  font-size: 24px;
+}
+
+.sol-icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  width: 70%;
+  margin: auto;
+}
+
+.sol-icon-one {
+  display: flex;
+  gap: 15px;
+}
+
+.sol-icon-one- {
+  font-size: 32px;
+  color: #2e7918;
+}
+
+.e-one h4 {
+  margin-bottom: 10px;
+}
+
+.e-one p {
+  color: #666;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .sol-p {
+    width: 85%;
+  }
+  
+  .hr-discuss {
+    width: 90%;
+  }
+  
+  .sol-icons {
+    grid-template-columns: 1fr;
+    width: 85%;
+  }
+}
