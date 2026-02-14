@@ -22,7 +22,7 @@ import user from '../Images/user2.jpg'
 import logo from '../Images/logo-removebg-preview.png'
 import Footer from '../Footer/Footer'
 import pic from '../Images/WhatsApp_Image_2024-12-31_at_2.49.41_PM-removebg-preview.png'
-import hr1 from '../Images/hr4.jpg'
+// import hr1 from '../Images/hr4.jpg'
 
 
 function Home() {
@@ -38,11 +38,11 @@ function Home() {
     const totalSlides = 6;
 
     const nextSlide = () => {
-        setIndex((prev) => (prev + 1) % 2);
+        setIndex((prev) => (prev + 1) % 4);
     };
 
     const prevSlide = () => {
-        setIndex((prev) => (prev - 1 + 2) % 2);
+        setIndex((prev) => (prev - 1 + 4) % 4);
     };
 
 
@@ -192,7 +192,7 @@ function Home() {
                         <div className="sliders">
                             <div
                                 className="d-slider"
-                                style={{ transform: `translateX(-${index * 50}%)` }}
+                                style={{ transform: `translateX(-${index * 33.33}%)` }}
                             >
                                 <div className="slide-one">
                                     <div className='c_text'>
@@ -201,7 +201,7 @@ function Home() {
                                     </div>
                                     <div className='flex-card'>
                                         <div className='cards-image'>
-                                            <img src={hr1} alt='' />
+                                            <img src={user} alt='' />
                                         </div>
                                         <div className='fc'>
                                             <h4>Ameh Sunday</h4>

@@ -383,7 +383,9 @@ function Pricing() {
                         <h3>Get a Free Price Quote</h3>
                     </div>
                     <div className='qu-ote'>
-                        <h3>Explore the ROI Calculator</h3>
+                        <a href="/roi-calculator" className='line'>
+                            <h3>Explore the ROI Calculator</h3>
+                        </a>
                     </div>
                 </div>
                 <br />
