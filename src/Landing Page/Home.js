@@ -35,14 +35,14 @@ function Home() {
 
 
     const [index, setIndex] = useState(0);
-    const slides = [1, 2, 3];
+    const totalSlides = 6;
 
     const nextSlide = () => {
-        setIndex((prev) => (prev + 1) % 3);
+        setIndex((prev) => (prev + 1) % 2);
     };
 
     const prevSlide = () => {
-        setIndex((prev) => (prev - 1 + 3) % 3);
+        setIndex((prev) => (prev - 1 + 2) % 2);
     };
 
 
@@ -192,7 +192,7 @@ function Home() {
                         <div className="sliders">
                             <div
                                 className="d-slider"
-                                style={{ transform: `translateX(-${index * 100}%)` }}
+                                style={{ transform: `translateX(-${index * 50}%)` }}
                             >
                                 <div className="slide-one">
                                     <div className='c_text'>
@@ -212,6 +212,48 @@ function Home() {
                                 <div className="slide-one">
                                     <div className='c_text'>
                                         <h3>Onboarding and offboarding is automated. Performance Management reviews are simple. It makes us look great in HR</h3>
+                                    </div>
+                                    <div className='flex-card'>
+                                        <div className='cards-image'>
+                                            <img src={user} alt='' />
+                                        </div>
+                                        <div className='fc'>
+                                            <h4>Ameh Sunday</h4>
+                                            <p>HR Manager at Dangote</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="slide-one">
+                                    <div className='c_text'>
+                                        <h3>If you are looking for a product that is very clean and easy to use then enesHR would be great.</h3>
+                                    </div>
+                                    <div className='flex-card'>
+                                        <div className='cards-image'>
+                                            <img src={user} alt='' />
+                                        </div>
+                                        <div className='fc'>
+                                            <h4>Ameh Sunday</h4>
+                                            <p>HR Manager at Dangote</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="slide-one">
+                                    <div className='c_text'>
+                                        <h3>If you are looking for a product that is very clean and easy to use then enesHR would be great.</h3>
+                                    </div>
+                                    <div className='flex-card'>
+                                        <div className='cards-image'>
+                                            <img src={user} alt='' />
+                                        </div>
+                                        <div className='fc'>
+                                            <h4>Ameh Sunday</h4>
+                                            <p>HR Manager at Dangote</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="slide-one">
+                                    <div className='c_text'>
+                                        <h3>If you are looking for a product that is very clean and easy to use then enesHR would be great.</h3>
                                     </div>
                                     <div className='flex-card'>
                                         <div className='cards-image'>
