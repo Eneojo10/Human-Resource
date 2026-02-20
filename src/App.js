@@ -9,6 +9,8 @@ import Footer from './Footer/Footer';
 import Caculator from './Others/Caculator';
 import Chatbox from './Components/Chatbox';
 import Solutions from './Solutions/Solutions';
+import Why from './Components/Why';
+import Story from './Components/Story/Story';
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
           <Route path="pricing" element={<Pricing  />} />
           <Route path="footer" element={<Footer  />} />
           <Route path="roi-calculator" element={<Caculator  />} />
-          <Route path="solutions" element={<Solutions  />} />
+          <Route path="solutions/hr-services" element={<Solutions  />} />
+          <Route path="why-enesHR" element={<Why  />} />
+          <Route path="about-enesHR" element={<Story  />} />
         </Routes>
         <Chatbox />
       </Router>

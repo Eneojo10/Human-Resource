@@ -490,7 +490,7 @@ function Navigation() {
                         <div className='dropdown'>
                             <h4>About</h4>
                             <div className='dropdown-menu'>
-                                <a href='/company'>Our Story</a>
+                                <a href='/about-enesHR'>Our Story</a>
                                 <a href='/team'>Partner with Us</a>
                                 <a href='/careers'>Contact</a>
                                 <a href='/careers'>AI Principles</a>
